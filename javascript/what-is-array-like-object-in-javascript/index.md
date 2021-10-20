@@ -201,7 +201,7 @@ function func(params) {
 func(1, 2, 3, 4, 5, 6, 6);
 ```
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/w1cr1ojx040rvlqlmf0o.JPG)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/what-is-array-like-object-in-javascript/2.jpg?raw=true)
 
 **2: Array.from(array_like_obj)**
 
