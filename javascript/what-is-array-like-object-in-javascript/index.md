@@ -4,6 +4,7 @@ _Before understanding what is Array like object, lets first have a look at what 
 They are created with [ ].
 Example: let arr = [1, 2, 'capscode', true, null, ,12];
 we can access element as arr[2] // 'capscode'
+
 ![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/what-is-array-like-object-in-javascript/1.jpg?raw=true)
 
 **Object**: Object are the Keyed Collection that hold the properties in key: value pair.
