@@ -7,7 +7,7 @@ This UI design is really an amazing and more interesting than Neumorphism.
 
 ### _DEMO_:
 
-![demo-image](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/what-is-glassmorphism/output.jpg?raw=true)
+![demo-image](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/what-is-glassmorphism/output.jpg?raw=true)
 
 Lets start creating Glassmorphism designs.
 
