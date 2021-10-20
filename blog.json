@@ -1,0 +1,34 @@
+[
+  {
+    "category": "General",
+    "children": [
+      {
+        "routeName": "what-is-glassmorphism",
+        "sidebarName": "Glassmorphism",
+        "title": "What is Glassmorphism",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/what-is-glassmorphism/index.md",
+        "smallTextHint": "i love glassmorphism",
+        "like": 100,
+        "heart": 300
+      }
+    ]
+  },
+  {
+    "category": "JavaScript",
+    "children": [
+      {
+        "routeName": "what-is-array-like-object-in-javascript",
+        "sidebarName": "Array Like Object in JS",
+        "title": "What is Array Like Object in JavaScript",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/what-is-array-like-object-in-javascript/index.md",
+        "smallTextHint": "what is array like object in javascript",
+        "like": 100,
+        "heart": 300
+      }
+    ]
+  },
+  {
+    "category": "ReactJS",
+    "children": []
+  }
+]
