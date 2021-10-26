@@ -26,6 +26,15 @@
     "category": "JavaScript",
     "children": [
       {
+        "routeName": "amazing-operators-in-javascript",
+        "sidebarName": "JavaScript Amazing operators ",
+        "title": "JavaScript Amazing operators ",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/amazing-operators-in-javascript/index.md",
+        "smallTextHint": "In this blog we will see the amazing operators in javascript",
+        "like": 100,
+        "heart": 300
+      },
+      {
         "routeName": "style-console-in-javascript",
         "sidebarName": "Style console.log()",
         "title": "How to style console.log() in JavaScript",
