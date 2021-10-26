@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "important-methods-and-properties-cheatsheet-in-javascript",
+    "sidebarName": "Important Methods & Properties",
+    "title": "JavaScript Important Methods & Properties Cheatsheet",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/important-methods-and-properties-cheatsheet-in-javascript/index.md",
+    "smallTextHint": "In this blog we will see the JavaScript Important Methods & Properties Cheatsheet",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "list-of-uses-of-spread-operator",
     "sidebarName": "Uses of spread operator",
     "title": "List of uses of spread operator",
