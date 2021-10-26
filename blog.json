@@ -3,6 +3,15 @@
     "category": "General",
     "children": [
       {
+        "routeName": "how-to-use-lottiefiles",
+        "sidebarName": "How To Use Lottifiles",
+        "title": "How To Use Lottifiles in React & HTML",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/index.md",
+        "smallTextHint": "In this blog we will see how we can use Lottiefiles in HTML and ReactJS in a very simplified and easy way",
+        "like": 100,
+        "heart": 300
+      },
+      {
         "routeName": "what-is-glassmorphism",
         "sidebarName": "Glassmorphism",
         "title": "What is Glassmorphism",
@@ -16,6 +25,15 @@
   {
     "category": "JavaScript",
     "children": [
+      {
+        "routeName": "strict-mode-in-javascript",
+        "sidebarName": "Strict Mode In JavaScript",
+        "title": "Strict Mode In JavaScript",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/strict-mode-in-javascript/index.md",
+        "smallTextHint": "Strict Mode In JavaScript",
+        "like": 100,
+        "heart": 300
+      },
       {
         "routeName": "what-is-array-like-object-in-javascript",
         "sidebarName": "Array Like Object in JS",

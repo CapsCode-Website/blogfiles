@@ -1,10 +1,10 @@
 [
   {
-    "routeName": "what-is-glassmorphism",
-    "sidebarName": "Glassmorphism",
-    "title": "What is Glassmorphism",
-    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/what-is-glassmorphism/index.md",
-    "smallTextHint": "TOP UI DESIGN TREND OF 2021 (i.e Glassmorphism). This UI design is really an amazing and more interesting than Neumorphism.",
+    "routeName": "how-to-use-lottiefiles",
+    "sidebarName": "How To Use Lottifiles",
+    "title": "How To Use Lottifiles in React & HTML",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/index.md",
+    "smallTextHint": "In this blog we will see how we can use Lottiefiles in HTML and ReactJS in a very simplified and easy way",
     "like": 100,
     "heart": 300
   },
@@ -14,6 +14,24 @@
     "title": "What is Array Like Object in JavaScript",
     "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/what-is-array-like-object-in-javascript/index.md",
     "smallTextHint": "what is array like object in javascript",
+    "like": 100,
+    "heart": 300
+  },
+  {
+    "routeName": "strict-mode-in-javascript",
+    "sidebarName": "Strict Mode In JavaScript",
+    "title": "Strict Mode In JavaScript",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/strict-mode-in-javascript/index.md",
+    "smallTextHint": "Strict Mode In JavaScript",
+    "like": 100,
+    "heart": 300
+  },
+  {
+    "routeName": "what-is-glassmorphism",
+    "sidebarName": "Glassmorphism",
+    "title": "What is Glassmorphism",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/what-is-glassmorphism/index.md",
+    "smallTextHint": "TOP UI DESIGN TREND OF 2021 (i.e Glassmorphism). This UI design is really an amazing and more interesting than Neumorphism.",
     "like": 100,
     "heart": 300
   }
