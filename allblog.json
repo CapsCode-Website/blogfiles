@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "list-of-uses-of-spread-operator",
+    "sidebarName": "Uses of spread operator",
+    "title": "List of uses of spread operator",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/list-of-uses-of-spread-operator/index.md",
+    "smallTextHint": "In this blog we will see the List of uses of spread operator",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "how-to-use-lottiefiles",
     "sidebarName": "How To Use Lottifiles",
     "title": "How To Use Lottifiles in React & HTML",
