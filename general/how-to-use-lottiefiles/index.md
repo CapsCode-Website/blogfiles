@@ -8,19 +8,19 @@ Have you ever tried [Lottiefiles.com](https://lottiefiles.com/) for animations i
 
 i am using this [lottiefiles](https://lottiefiles.com/43173-web-development) for out HTML project
 By opening this link in right hand bottom side you can see something written **html** as mentioned in below image, just click on that
-![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/how-to-use-lottiefiles/1.jpg?raw=true)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/1.jpg?raw=true)
 
 On Clicking, Something similar to the below window will open
-![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/how-to-use-lottiefiles/2.jpg?raw=true)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/2.jpg?raw=true)
 
 Now, just copy the code and start using Lottifiles in your code.
 
 #2. LETS SEE HOW TO USE LOTTIEFILES.COM IN **ReactJS PROJECT**
 For our React project i am using this [lottiefiles](https://lottiefiles.com/43885-laptop-working)
 Once you click on any of the lottiefiles the below window will open,  
-![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/how-to-use-lottiefiles/3.jpg?raw=true)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/3.jpg?raw=true)
 For react project we will download the JSON file and paste it our component folder (any) like this
-![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/how-to-use-lottiefiles/4.jpg?raw=true)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/4.jpg?raw=true)
 
 Now, here comes the most important part,
 
@@ -62,7 +62,7 @@ const defaultOptions = {
 ```
 
 #here is our Lottie in our react js project:
-![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/General/how-to-use-lottiefiles/5.jpg?raw=true)
+![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/5.jpg?raw=true)
 
 #Here is the full code
 ###App.js
