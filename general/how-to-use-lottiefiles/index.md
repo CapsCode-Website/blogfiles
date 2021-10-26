@@ -4,7 +4,7 @@ Have you ever tried [Lottiefiles.com](https://lottiefiles.com/) for animations i
 
 **In tutorials I will guide you how to use it in your HTML file and in REACTJS project.**
 
-#1.LETS FIRST SEE HOW TO USE LOTTIEFILES.COM IN **HTML PROJECT**
+## 1.LETS FIRST SEE HOW TO USE LOTTIEFILES.COM IN **HTML PROJECT**
 
 i am using this [lottiefiles](https://lottiefiles.com/43173-web-development) for out HTML project
 By opening this link in right hand bottom side you can see something written **html** as mentioned in below image, just click on that
@@ -17,7 +17,8 @@ On Clicking, Something similar to the below window will open
 
 Now, just copy the code and start using Lottifiles in your code.
 
-#2. LETS SEE HOW TO USE LOTTIEFILES.COM IN **ReactJS PROJECT**
+## 2. LETS SEE HOW TO USE LOTTIEFILES.COM IN **ReactJS PROJECT**
+
 For our React project i am using this
 
 [lottiefiles](https://lottiefiles.com/43885-laptop-working)
@@ -69,12 +70,13 @@ const defaultOptions = {
 <Lottie options={defaultOptions} height={400} width={400} />
 ```
 
-#here is our Lottie in our react js project:
+## here is our Lottie in our react js project:
 
 ![Alt Text](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/how-to-use-lottiefiles/5.jpg?raw=true)
 
-#Here is the full code
-###App.js
+# Here is the full code
+
+### App.js
 
 ```js
 import React from "react";
@@ -109,7 +111,9 @@ export default function App() {
 }
 ```
 
-# Here is the link for project: [CLICK HERE](https://codesandbox.io/s/lottieinreactjs-vdxn1)
+# Here is the link for project:
+
+[CLICK HERE](https://codesandbox.io/s/lottieinreactjs-vdxn1)
 
 I hope this will be helpful in your future project.
 If you liked it please gives us a thumbsup and follow us in Instagram.
