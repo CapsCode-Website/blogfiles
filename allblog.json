@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "duplicate-parameters-in-javascript-function",
+    "sidebarName": "Duplicate Parameters In JavaScript Function",
+    "title": "Duplicate Parameters In JavaScript Function",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/duplicate-parameters-in-javascript-function/index.md",
+    "smallTextHint": "In this article i will introduce you to one of the most confusing and common doubt for every newbie devs, Duplicate parameters in javascript functions",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "covid19-vaccine-tracker",
     "sidebarName": "COVID19 Vaccine Search Portal",
     "title": "Voice Enabled COVID19 Vaccine Search Portal",
