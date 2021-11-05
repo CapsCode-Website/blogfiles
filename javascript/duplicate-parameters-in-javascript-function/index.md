@@ -47,11 +47,11 @@ function Func(first, second, first) {
 
 In Strict mode we cannot duplicate the parameter name.
 
-## How do arrow functions treat duplicate parameters? <a name="chapter-2"></a>
+## How do arrow functions treat duplicate parameters? <a name="chapter-3"></a>
 
 Now here is something about arrow functions:
 
-> Unlike regular functions, arrow functions do not allow duplicate parameters, whether in strict or non-strict mode. Duplicate parameters will cause a `Syntax Error` to be thrown.\_
+> Unlike regular functions, arrow functions do not allow duplicate parameters, whether in strict or non-strict mode. Duplicate parameters will cause a `Syntax Error` to be thrown.
 
 ```js
 // Always throws a syntax error
