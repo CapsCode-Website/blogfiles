@@ -35,6 +35,15 @@
     "category": "JavaScript",
     "children": [
       {
+        "routeName": "array.flat-in-javascript",
+        "sidebarName": "Array.flat() In JavaScript",
+        "title": "Array.flat() method In JavaScript",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/array.flat-in-javascript/index.md",
+        "smallTextHint": "In this article i will walk you through one of the important methods of Array in JavaScript i.e Array.flat method",
+        "like": 100,
+        "heart": 300
+      },
+      {
         "routeName": "duplicate-parameters-in-javascript-function",
         "sidebarName": "Duplicate Parameters In JavaScript Function",
         "title": "Duplicate Parameters In JavaScript Function",
