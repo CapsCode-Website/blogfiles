@@ -44,6 +44,15 @@
     "category": "JavaScript",
     "children": [
       {
+        "routeName": "difference-between-slice-and-splice-in-javascript",
+        "sidebarName": "Slice & Splice in JavaScript",
+        "title": "Difference Between SLICE and SPLICE in JavaScript",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/difference-between-slice-and-splice-in-javascript/index.md",
+        "smallTextHint": "In this article we will learn Destructuring in JavaScript. Array Destructuring in JavaScript, Additional use of Array Destructuring, Assigning default values using destructuring assignment, Destructuing of nested array, Object Destructuring in JavaScript, Nested object destructuring, Combined Array and Object Destructuring",
+        "like": 100,
+        "heart": 300
+      },
+      {
         "routeName": "destructuring-in-javascript",
         "sidebarName": "Destructuring In JavaScript",
         "title": "Array.flat() method In JavaScript",
