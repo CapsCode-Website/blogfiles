@@ -44,6 +44,15 @@
     "category": "JavaScript",
     "children": [
       {
+        "routeName": "dot-and-bracket-notation-in-javascript",
+        "sidebarName": "DOT & BRACKET Notation",
+        "title": "DOT & BRACKET Notation in Javascript",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/dot-and-bracket-notation-in-javascript/index.md",
+        "smallTextHint": "In JavaScript we can access the properties of object using dot notation(person.first_name) and bracket notation(person[first_name]). But what's the difference between these two notations and when to use which one ? Just stay here with me for another 20 mins and I promise you will never forget this concept.",
+        "like": 100,
+        "heart": 300
+      },
+      {
         "routeName": "void-in-javascript",
         "sidebarName": "VOID in JavaScript",
         "title": "VOID in JavaScript",
