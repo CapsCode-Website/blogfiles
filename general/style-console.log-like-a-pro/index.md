@@ -17,6 +17,7 @@ console.log("%cThis is my 1st style", "color: #007acc;", "CAPSCODE");
 ```
 
 _output:_
+
 ![style 1 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/1.png?raw=true)
 
 **2.JSON String Output**
@@ -30,6 +31,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 2 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/2.png?raw=true)
 
 **3.Simple Console Log Shortcut for JS Objects - Green Text**
@@ -39,6 +41,7 @@ console.log("%cThis is my 4th style", "color: #26bfa5;", foo);
 ```
 
 _output:_
+
 ![style 3 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/3.png?raw=true)
 
 **4.Simple Console Log Shortcut for JS Objects - Blue Background**
@@ -52,6 +55,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 4 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/4.png?raw=true)
 
 **5.Simple Console Log Shortcut for JS Objects - Green Background**
@@ -65,6 +69,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 5 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/5.png?raw=true)
 
 **6.Console logs -> Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background**
@@ -77,6 +82,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 6 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/6.png?raw=true)
 
 **7.Find errors with style**
@@ -90,6 +96,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 7 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/7.png?raw=true)
 
 **8.You need a Rainbow in your code**
@@ -102,6 +109,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 8 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/8.png?raw=true)
 
 **9.Confused?! so put a this guy in your code.**
@@ -114,6 +122,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 9 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/9.png?raw=true)
 
 **10.Simple Console Log Shorcut for JS Objects - Green Text**
@@ -126,6 +135,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 10 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/10.png?raw=true)
 
 **11.Celebrate your code works!**
@@ -138,6 +148,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 11 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/11.png?raw=true)
 
 **12.Coding GIF**
@@ -150,6 +161,7 @@ console.log(
 ```
 
 _output:_
+
 ![style 12 of console](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/style-console.log-like-a-pro/12.png?raw=true)
 
 That all in this article, hope you all have enjoyed it.
