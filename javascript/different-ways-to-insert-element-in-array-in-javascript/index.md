@@ -1,16 +1,16 @@
 Here are the 6 different JavaScript functions you can use to add elements to an array:
 
-##### 1. push – Add an element to the end of the array
+#### 1. push – Add an element to the end of the array
 
-##### 2. unshift – Insert an element at the beginning of the array
+#### 2. unshift – Insert an element at the beginning of the array
 
-##### 3. spread operator – Adding elements to an array using the new ES6 spread operator
+#### 3. spread operator – Adding elements to an array using the new ES6 spread operator
 
-##### 4. concat – This can be used to append an array to another array
+#### 4. concat – This can be used to append an array to another array
 
-##### 5. Using the arrays length property to append an element
+#### 5. Using the arrays length property to append an element
 
-##### 6. splice – inserts an element anywhere in an array
+#### 6. splice – inserts an element anywhere in an array
 
 ## Table of Content
 
@@ -181,4 +181,5 @@ Hope its a nice and informative read for you.
 VISIT https://www.capscode.in/blog TO LEARN MORE...
 
 Thanks,
+
 CapsCode
