@@ -12,7 +12,7 @@ So without wasting any time lets get into this tutorial.
 
 **1.Simple Console Log Shortcut for JS Objects with the defined color i.e #007acc**
 
-```javascript
+```js
 console.log("%cThis is my 1st style", "color: #007acc;", "CAPSCODE");
 ```
 
@@ -22,7 +22,7 @@ _output:_
 
 **2.JSON String Output**
 
-```javascript
+```js
 console.log(
   "%cThis is my 2nd style",
   "color: #007acc;",
@@ -36,7 +36,7 @@ _output:_
 
 **3.Simple Console Log Shortcut for JS Objects - Green Text**
 
-```javascript
+```js
 console.log("%cThis is my 4th style", "color: #26bfa5;", foo);
 ```
 
@@ -46,7 +46,7 @@ _output:_
 
 **4.Simple Console Log Shortcut for JS Objects - Blue Background**
 
-```javascript
+```js
 console.log(
   "%cThis is my 5th style",
   "color: white; background-color: #007acc;",
@@ -60,7 +60,7 @@ _output:_
 
 **5.Simple Console Log Shortcut for JS Objects - Green Background**
 
-```javascript
+```js
 console.log(
   "%cThis is my 6th style",
   "color: white; background-color: #26bfa5;",
@@ -74,7 +74,7 @@ _output:_
 
 **6.Console logs -> Hello ${TM_FILENAME} line:${TM_LINE_NUMBER} on Green Background**
 
-```javascript
+```js
 console.log(
   "%cThis is my 7th style",
   "background: green; color: white; display: block;"
@@ -87,7 +87,7 @@ _output:_
 
 **7.Find errors with style**
 
-```javascript
+```js
 console.log(
   "%cThis is my 8th style",
   "color: red; display: block; width: 100%;",
@@ -101,7 +101,7 @@ _output:_
 
 **8.You need a Rainbow in your code**
 
-```javascript
+```js
 console.log(
   "%c CapsCode!",
   "font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); margin-bottom: 12px; padding: 5%"
@@ -114,7 +114,7 @@ _output:_
 
 **9.Confused?! so put a this guy in your code.**
 
-```javascript
+```js
 console.log(
   "%c ",
   "font-size: 1px; padding: 166.5px 250px; background-size: 500px 333px; background: no-repeat url(https://www.capscode.in/static/media/cap.0d0af8f0.png);"
@@ -127,7 +127,7 @@ _output:_
 
 **10.Simple Console Log Shorcut for JS Objects - Green Text**
 
-```javascript
+```js
 console.log(
   "%c ",
   "font-size: 1px; padding: 240px 123.5px; background-size: 247px 480px; background: no-repeat url(https://www.capscode.in/static/media/cap.0d0af8f0.png);"
@@ -140,7 +140,7 @@ _output:_
 
 **11.Celebrate your code works!**
 
-```javascript
+```js
 console.log(
   "%c ",
   "font-size: 1px; padding: 125px 125px; background-size: 250px 250px; background: no-repeat url(https://i2.wp.com/i.giphy.com/media/12BYUePgtn7sis/giphy-downsized.gif?w=770&amp;ssl=1);"
@@ -153,7 +153,7 @@ _output:_
 
 **12.Coding GIF**
 
-```javascript
+```js
 console.log(
   "%c ",
   "font-size: 1px; padding: 215px 385px; background-size: 770px 430px; background: no-repeat url(https://i0.wp.com/i.giphy.com/media/ZVik7pBtu9dNS/giphy-downsized.gif?w=770&amp;ssl=1);"
