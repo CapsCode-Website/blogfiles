@@ -1,7 +1,8 @@
 Hello Devs,
 
-In this blog I will guide you all through "HOW WE CAN STYLE CONSOLE.LOG() USING CSS".
-I have made 12 different styles for you to make sure that you will not ended up with any confusions.
+#### In this blog I will guide you all through "HOW WE CAN STYLE CONSOLE.LOG() USING CSS".
+
+#### I have made 12 different styles for you to make sure that you will not ended up with any confusions.
 
 So without wasting any time lets get into this tutorial.
 
