@@ -108,7 +108,7 @@ If you find this article useful, like and share this article. Someone could find
 Now you can also play around the objects in JS.
 
 Hope its a nice and informative read for you.
-VISIT https://www.capscode.in/#/blog TO LEARN MORE...
+VISIT https://www.capscode.in/blog TO LEARN MORE...
 
 ### IF MY ARTICLES HELPED YOU
 

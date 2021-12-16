@@ -62,7 +62,7 @@ Thank you for reading this far. This is a brief introduction of **Array.flat() m
 If you find this article useful, like and share this article. Someone could find it useful too. If you find anything technically inaccurate please feel free to comment below.
 
 Hope its a nice and informative read for you.
-VISIT https://www.capscode.in/#/blog TO LEARN MORE...
+VISIT https://www.capscode.in/blog TO LEARN MORE...
 See you in my next Blog article, Take care!!
 
 ### IF MY ARTICLE HELPED YOU

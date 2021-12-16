@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "list-of-http-status-code",
+    "sidebarName": "List Of HTTP Status Codes",
+    "title": "Here is the list of all HTTP Status Code and their brief details",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/list-of-http-status-code/index.md",
+    "smallTextHint": "Here is the list of all HTTP Status Code and their brief details",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "different-ways-to-insert-element-in-array-in-javascript",
     "sidebarName": "6 Ways To Insert Element In Array",
     "title": "6 Ways To Insert Element In Array",
