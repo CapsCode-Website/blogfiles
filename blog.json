@@ -62,10 +62,10 @@
     "category": "JavaScript",
     "children": [
       {
-        "routeName": "how-to-use-variable-as-a-key-name-in-javascript",
+        "routeName": "how-to-use-variable-as-a-key-name-in-javascript-object",
         "sidebarName": "Variable as keyname in JS Object",
         "title": "Variable as keyname in JS Object",
-        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/how-to-use-variable-as-a-key-name-in-javascript/index.md",
+        "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/how-to-use-variable-as-a-key-name-in-javascript-object/index.md",
         "smallTextHint": "In this blog you are going to learn a very important and useful concept of JavaScript which you will definitly going to use or might have used in Production application, i.e: How to make any variable name as key of an object in JS",
         "like": 100,
         "heart": 300
