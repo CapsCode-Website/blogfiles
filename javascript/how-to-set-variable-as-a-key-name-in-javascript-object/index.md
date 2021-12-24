@@ -47,7 +47,7 @@ NOTE: if you having any doubt regarding why we are using [] for setting the keys
 lets assume that we have 3 buttons, and there is a `OnClickHandler function`.
 On click of buttons we are calling this handler function and passing some `key` and `value` as a argument to this handler function and then we have to set this `key` and `value` in an object.
 
-```html
+```htmlbars
 <button onclick=OnClickHandler("button1", 10)>Click 1</button>
 <button onclick=OnClickHandler("button2", 20)>Click 2</button>
 <button onclick=OnClickHandler("button3", 30)>Click 3</button>
