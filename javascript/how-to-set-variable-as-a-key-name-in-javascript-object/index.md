@@ -1,12 +1,12 @@
 Hello Devs,
 
-In this blog you are going to learn a very important and useful concept of JavaScript which you will definitly going to use or might have used in Production application, i.e: `How to make any variable name as key of an object in JS`.
+In this blog you are going to learn a very important and useful concept of JavaScript which you will definitely going to use or might have used in Production application, i.e: `How to make any variable name as key of an object in JS`.
 
 I know you might be thinking when and in which scenario you will have to use the `variable name as a key name in JS`.
 Let me take your next 2 mins to explain the scenario.
 Let say you have a function and that function is used to add some keys to an object.
 The key name which you are going to add in that object is dynamic depending on the button click or something like this, and in the Handler function you are passing the argument which will be used as the new key name.
-So how you will make that argument name as a key of an object ?
+So how you will make that argument name as a key of an `object` ?
 
 ---
 
@@ -44,7 +44,7 @@ NOTE: if you having any doubt regarding why we are using [] for setting the keys
 
 ### **Examples:**
 
-lets assume that we have 3 buttons, and there is a `OnClickHandler funtion`.
+lets assume that we have 3 buttons, and there is a `OnClickHandler function`.
 On click of buttons we are calling this handler function and passing some `key` and `value` as a argument to this handler function and then we have to set this `key` and `value` in an object.
 
 ```html
