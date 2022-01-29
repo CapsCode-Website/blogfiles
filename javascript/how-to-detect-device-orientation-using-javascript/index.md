@@ -1,6 +1,10 @@
-how to get the detect orientation using javascript.
+In this blog we will see "How to detect orientation using JavaScript".
 
-1. using window object
+Below are the most useful ways to get/ detect the orientation of the screen using JavaScript.
+
+without wasting time, lets get into the blog,
+
+1. How to detect screen orientation using `window` object
 
 ```js
 if (window.innerHeight > window.innerWidth) {
@@ -8,8 +12,8 @@ if (window.innerHeight > window.innerWidth) {
 }
 ```
 
-2. using window.screen object
-   On mobile devices, if you open a keyboard then the above may fail, so can use `screen.availHeight` and `screen.availWidth`, which gives proper height and width even after the keyboard is opened.
+2. How to detect screen orientation using `window.screen object`
+   On mobile devices, if you open a keyboard then the above may fail, so we can use `screen.availHeight` and `screen.availWidth`, which gives proper height and width even after the keyboard is opened.
 
 ```JS
 if(screen.availHeight > screen.availWidth){
@@ -25,7 +29,7 @@ if (screen.height > screen.width) {
 }
 ```
 
-3. using screen.orientation.type
+3. How to detect screen orientation using `screen.orientation.type`
 
 ```js
 let orientation = screen.orientation.type;
@@ -46,7 +50,7 @@ if (orientation === undefined) {
 }
 ```
 
-4. using matchMedia
+4. How to detect screen orientation using `matchMedia`
 
 ```javascript
 if (window.matchMedia("(orientation: portrait)").matches) {
