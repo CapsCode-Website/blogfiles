@@ -10,7 +10,11 @@ without wasting time, lets get into the blog,
 
 ```js
 if (window.innerHeight > window.innerWidth) {
-  alert("Please use Landscape!");
+  alert("You are in portrait mode");
+}
+
+if (window.innerHeight < window.innerWidth) {
+  alert("You are in landscape mode");
 }
 ```
 
@@ -20,7 +24,11 @@ On mobile devices, if you open a keyboard then the above may fail, so we can use
 
 ```JS
 if(screen.availHeight > screen.availWidth){
-    alert("Please use Landscape!");
+    alert("You are in portrait mode");
+}
+
+if(screen.availHeight < screen.availWidth){
+    alert("You are in landscape mode");
 }
 ```
 
@@ -28,28 +36,35 @@ if(screen.availHeight > screen.availWidth){
 
 ```javascript
 if (screen.height > screen.width) {
-  alert("Please use Landscape!");
+  alert("You are in portrait mode");
+}
+
+if (screen.height > screen.width) {
+  alert("You are in landscape mode");
 }
 ```
 
 **3. How to detect screen orientation using `screen.orientation.type`**
 
 ```js
-let orientation = screen.orientation.type;
-if (orientation === "landscape-primary") {
-  console.log("you are in landscape mode");
-}
-if (orientation === "landscape-secondary") {
-  console.log("you are in landscape mode with screen as upside down!");
-}
 if (
   orientation === "portrait-secondary" ||
   orientation === "portrait-primary"
 ) {
-  console.log("you are in portrait mode");
+  alert("You are in portrait mode");
 }
+
+let orientation = screen.orientation.type;
+if (orientation === "landscape-primary") {
+  alert("You are in landscape mode");
+}
+
+if (orientation === "landscape-secondary") {
+  alert("You are in landscape mode with screen as upside down");
+}
+
 if (orientation === undefined) {
-  console.log("orientation not supported in current browser");
+  alert("orientation not supported in current browser");
 }
 ```
 
@@ -57,11 +72,11 @@ if (orientation === undefined) {
 
 ```javascript
 if (window.matchMedia("(orientation: portrait)").matches) {
-  // you're in PORTRAIT mode
+  alert("You are in portrait mode");
 }
 
 if (window.matchMedia("(orientation: landscape)").matches) {
-  // you're in LANDSCAPE mode
+  alert("You are in landscape mode");
 }
 ```
 
