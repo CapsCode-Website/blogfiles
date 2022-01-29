@@ -12,7 +12,7 @@ if (window.innerHeight > window.innerWidth) {
 }
 ```
 
-2. How to detect screen orientation using `window.screen object`
+2. How to detect screen orientation using `window.screen` object
    On mobile devices, if you open a keyboard then the above may fail, so we can use `screen.availHeight` and `screen.availWidth`, which gives proper height and width even after the keyboard is opened.
 
 ```JS
@@ -61,3 +61,15 @@ if (window.matchMedia("(orientation: landscape)").matches) {
   // you're in LANDSCAPE mode
 }
 ```
+
+Thank you for reading this so far. This is a brief introduction on **How to Detect Screen Orientation using JavaScript** .
+If you find this article useful, like and share this article. Someone could find it useful too.
+
+If you find anything technically inaccurate please feel free to comment below.
+
+Hope its a nice and informative read for you.
+VISIT https://www.capscode.in/blog TO LEARN MORE...
+See you in my next Blog article, Take care!!
+
+Thanks,
+CapsCode
