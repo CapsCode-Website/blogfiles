@@ -1,6 +1,6 @@
 Hello Devs,
 
-In this blog we will see "How to detect orientation using JavaScript".
+In this blog we will see "How to detect screen orientation using JavaScript".
 
 Below are the most useful ways to get/ detect the orientation of the screen/ device using JavaScript.
 
