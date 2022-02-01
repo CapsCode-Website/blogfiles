@@ -63,7 +63,7 @@
     "children": [
       {
         "routeName": "how-to-detect-screen-orientation-using-javascript",
-        "sidebarName": "Detect Device Orientation Using JavaScript",
+        "sidebarName": "Detect Screen Orientation Using JavaScript",
         "title": "Detect Device Orientation Using JavaScript",
         "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/how-to-detect-screen-orientation-using-javascript/index.md",
         "smallTextHint": "Getting device orientation in realtime is very useful concept to learn in JavaScript. Using this we can take any action based upon the screen orientation of a device.",
