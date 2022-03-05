@@ -22,13 +22,13 @@ if (window.innerHeight < window.innerWidth) {
 
 On mobile devices, if you open a keyboard then the above may fail, so we can use `screen.availHeight` and `screen.availWidth`, which gives proper height and width even after the keyboard is opened.
 
-```JS
-if(screen.availHeight > screen.availWidth){
-    alert("You are in portrait mode");
+```js
+if (screen.availHeight > screen.availWidth) {
+  alert("You are in portrait mode");
 }
 
-if(screen.availHeight < screen.availWidth){
-    alert("You are in landscape mode");
+if (screen.availHeight < screen.availWidth) {
+  alert("You are in landscape mode");
 }
 ```
 
@@ -46,7 +46,7 @@ if (screen.height > screen.width) {
 
 ## **3. How to detect screen orientation using `screen.orientation.type`**
 
-```js
+```javascript
 if (
   orientation === "portrait-secondary" ||
   orientation === "portrait-primary"

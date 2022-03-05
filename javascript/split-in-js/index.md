@@ -1,3 +1,8 @@
+Hello Devs,
+
+In this blog you are going to learn how split works in JavaScript.
+and how to use split efficiently in your next project.
+
 let str="javascript"
 
 console.log(str.split("")[0])
