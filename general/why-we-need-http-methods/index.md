@@ -33,11 +33,11 @@ HTTP protocol is used to send information in a format that both the client and t
    GET method is used to get the data from a requested resource.
    Ex. - https://api.capscode.in/userDetails
 
-   some important points about GET
+some important points about GET
 
-   1. Requests using the HTTP GET method should only fetch data, cannot enclose data in the body of a GET message, and should not have any other effect on data on the server.
+1.  Requests using the HTTP GET method should only fetch data, cannot enclose data in the body of a GET message, and should not have any other effect on data on the server.
 
-   2. A payload within a GET request has no definetaion. sending a payload body on a GET request might cause rejection of the request. We should avoid sending payload to the server and consuming payload by the server.
+2.  A payload within a GET request has no definetaion. sending a payload body on a GET request might cause rejection of the request. We should avoid sending payload to the server and consuming payload by the server.
 
 Lets see some of the Question that might arises in future !!
 
@@ -47,12 +47,11 @@ Yes, you can send any HTTP headers with your GET request.
 Q. Can I send data(request payload) using the HTTP GET method?
 No, HTTP GET requests cannot have a message body. But you still can send data to the server using the URL parameters.
 Ex. - /test/demo_form.php?name1=value1&name2=value2
-
 In this case, you are limited to the maximum size of the URL, which is about 2000 characters (depends on the browser). The HTTP GET method is defined as idempotent, which means that multiple identical GET requests should have the same effect as a single request.
 
-~what is idempotemt and non-idempotent
-idempotent means A^n = A
-In the context of REST APIs, when making multiple identical requests has the same effect as making a single request – then that REST API is called idempotent.
+Q. Can we use GET to make insertion.
+Yes, we can, it depends on the backend code that what we are going to do.
+But we should avoid violating the HTTP protocol as sometimes it may leds to rejection of the API call.
 
 Some other notes on GET requests:
 
@@ -62,6 +61,10 @@ GET requests can be bookmarked
 GET requests should never be used when dealing with sensitive data
 GET requests have length restrictions
 GET requests are only used to request data (not modify)
+
+~what is idempotemt and non-idempotent ?
+idempotent means A^n = A (A*A*A....\*n times A) = A
+In terms of REST APIs, when making multiple identical requests has the same effect on the server as making a single request – then that REST API is called idempotent.
 
 +---------+------+------------+
 | Method | Safe | Idempotent |
@@ -75,3 +78,5 @@ GET requests are only used to request data (not modify)
 | PUT | no | yes |
 | TRACE | yes | yes |
 +---------+------+------------+
+
+5. POST -
