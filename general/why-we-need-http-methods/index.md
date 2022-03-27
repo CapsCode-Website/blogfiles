@@ -30,7 +30,7 @@ HTTP protocol is used to send information in a format that both the client and t
    please refer to the official MDN doc :https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 
 4. GET
-   GET method is used to get the data from a requested resource.
+   GET method is used to get the data from a requested resource or Use GET to retrive resource/ information **only**
    Ex. - https://api.capscode.in/userDetails
 
 some important points about GET
@@ -56,6 +56,7 @@ But we should avoid violating the HTTP protocol as sometimes it may leds to reje
 Some other notes on GET requests:
 
 GET requests can be cached
+GET APIs are idempotent OR GET APIs should be idempotent
 GET requests remain in the browser history
 GET requests can be bookmarked
 GET requests should never be used when dealing with sensitive data
