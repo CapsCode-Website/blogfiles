@@ -16,7 +16,7 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 I am sure you have developed a ReactJS application using create-react-app or your own webpack configuration and also deployed it in some hosting platform like Netlify, Vercel, Heroku, Azure, AWS etc.
 But have you ever opened your website and in developers tool of your browser, have you ever checked the source tab of it.
 If not! Please go and check and see whether your ReactJS codes are visible to public or not like below,
-![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.jpg?raw=true)
+![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.JPG?raw=true)
 
 If you have your code visible like this, then you are in correct place of this Planet to hide your react codes.
 By the end of this blog post I will show you what are the different ways to hide the reactjs codes in production environment and their advantages/ disadvantages.
@@ -38,7 +38,7 @@ source[https://trackjs.com/blog/debugging-with-sourcemaps/]
 Now run `npm run build` command lets create a build folder of your reactjs app.
 and then please check you map files inside build\static\js
 
-[image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.jpg?raw=true)
+![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.JPG?raw=true)
 
 NOTE : if you deploy this build file then your code will be visible in the browser.
 so you can delete the map files and then deploy the build folder, but thats not the correct way of doing so and thats not the way a developer will do.
@@ -61,7 +61,7 @@ GENERATE_SOURCEMAP = false;
 and then make a build of your reactjs app using command `npm run build`
 
 What it will do is, it will create a build folder without the map files[link of above topic of map file]. You can go inside the build\static\js
-[image of the build folder without map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/3.jpg?raw=true)
+![image of the build folder without map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/3.JPG?raw=true)
 This way to generating build folder is not Operating System dependent.
 
 Deploy the app now and you cannot see the code in source tab in deelopers tool of your browser
