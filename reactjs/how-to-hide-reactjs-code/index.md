@@ -12,7 +12,7 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 
 I am sure you have developed a ReactJS application using create-react-app or your own webpack configuration and also deployed it in some hosting platform like Netlify, Vercel, Heroku, Azure, AWS etc.
 But have you ever opened your website and in developers tool of your browser, have you ever checked the source tab of it.
-If not! Please go and check and see whether your ReactJS codes are visible to public or not like below,
+If not! Please go and check and see whether your ReactJS codes are visible to public or not like below.
 
 ![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.JPG?raw=true)
 
