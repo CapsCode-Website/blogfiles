@@ -7,6 +7,9 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 [Introduction](#introduction)
 [What makes your source code visible in the browser](#what-makes-your-source-code-visible-in-the-browser)
 [Hide your ReactJS code using `.env` file](#hide-your-reactjs-code-using-env-file-)
+[Hide ReactJS code Using package.json file](#hide-reactjs-code-in-windows-and-linux)
+[Hide ReactJS code using cross-env library](#cross-env-to-hide-reactjs-code)
+[Conclusion](#conclusion)
 
 ## Introduction <a name="introduction"></a>
 
@@ -73,6 +76,7 @@ This way to generating build folder is not Operating System dependent.
 Deploy the app now and you cannot see the code in source tab in deelopers tool of your browser
 
 **2. Using `package.json` file.** <a name="hide-reactjs-code-in-windows-and-linux"></a>
+
 The way of remove map files using this way is OS dependent
 lets open the `package.json` file and go to script object and change your build command like below,
 
@@ -141,6 +145,7 @@ NOTE: What is prebuild and postbuild ?
 NOTE: "Remove the .map files" sadly isn't enough. The build also enerates a asset-manifest.json file that contains references to that map files.
 
 **3. using `cross-env` library** <a name="cross-env-to-hide-reactjs-code"></a>
+
 install `cross-env` library in devDependency
 
 ```js
@@ -197,12 +202,6 @@ function deleteMaps(dir) {
 }
 
 ["./build/static/css/", "./build/static/js/"].map(deleteMaps);
-```
-
-**5. Using `command` line.**
-
-```javascript
-GENERATE_SOURCEMAP=false react-scripts build
 ```
 
 Thank you for reading this far. This is a brief introduction of **Hiding ReactJS code in Production Environment**.
