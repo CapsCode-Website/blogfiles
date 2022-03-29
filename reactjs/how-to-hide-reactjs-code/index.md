@@ -4,16 +4,16 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 
 ## Table of content
 
-- [Table of content](#table-of-content)
-- [Introduction](#introduction)
-- [What makes your source code visible in the browser](#what-makes-your-source-code-visible-in-the-browser)
-- [Hide your ReactJS code using `.env` file](#hide-your-reactjs-code-using-env-file-)
+[Introduction](#introduction)
+[What makes your source code visible in the browser](#what-makes-your-source-code-visible-in-the-browser)
+[Hide your ReactJS code using `.env` file](#hide-your-reactjs-code-using-env-file-)
 
 ## Introduction <a name="introduction"></a>
 
 I am sure you have developed a ReactJS application using create-react-app or your own webpack configuration and also deployed it in some hosting platform like Netlify, Vercel, Heroku, Azure, AWS etc.
 But have you ever opened your website and in developers tool of your browser, have you ever checked the source tab of it.
 If not! Please go and check and see whether your ReactJS codes are visible to public or not like below,
+
 ![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.JPG?raw=true)
 
 If you have your code visible like this, then you are in correct place of this Planet to hide your react codes.
@@ -37,7 +37,7 @@ source[https://trackjs.com/blog/debugging-with-sourcemaps/]
 [https://medium.com/@Linda_Ikechukwu/easy-debugging-in-react-with-webpack-source-maps-5dd80a753cab]
 
 Now run `npm run build` command lets create a build folder of your reactjs app.
-and then please check you map files inside build\static\js
+and then please check you map files inside build\static\js.
 
 ![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.JPG?raw=true)
 
