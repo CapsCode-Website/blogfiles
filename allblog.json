@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "how-to-hide-reactjs-code",
+    "sidebarName": "How To Hide ReactJS Code From Browser",
+    "title": "How To Hide ReactJS Code From Browser",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/index.md",
+    "smallTextHint": "How To Hide ReactJS Code From Browser",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "how-to-detect-screen-orientation-using-javascript",
     "sidebarName": "Detect Screen Orientation Using JavaScript",
     "title": "Detect Screen Orientation Using JavaScript",
