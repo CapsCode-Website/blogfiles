@@ -6,10 +6,11 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 
 1. [Introduction](#introduction)
 2. [What makes your source code visible in the browser](#what-makes-your-source-code-visible-in-the-browser)
-3. [Hide your ReactJS code using `.env` file](#hide-your-reactjs-code-using-env-file-)
+3. [Hide your ReactJS code using `.env` file](#env-file-in-reactjs)
 4. [Hide ReactJS code Using package.json file](#hide-reactjs-code-in-windows-and-linux)
-5. [Hide ReactJS code using cross-env library](#cross-env-to-hide-reactjs-code)
-6. [Conclusion](#conclusion)
+5. [Hide ReactJS code using cross-env library](#cross-env-library-to-hide-reactjs-code)
+6. [Custom JavaScript file to hide ReactJS code](#delete-map-file-in-reactjs)
+7. [Conclusion](#conclusion)
 
 ## Introduction <a name="introduction"></a>
 
@@ -53,7 +54,7 @@ So, without wasting time, lets begin
 
 Here are different ways for hiding your reactjs code from browsers,
 
-## **1. Hide your ReactJS code using `.env` file.** <a name="env-file-in-reactjs"></a>
+## 1. Hide your ReactJS code using `.env` file. <a name="env-file-in-reactjs"></a>
 
 ---
 
@@ -75,7 +76,9 @@ This way to generating build folder is not Operating System dependent.
 
 Deploy the app now and you cannot see the code in source tab in deelopers tool of your browser
 
-**2. Using `package.json` file.** <a name="hide-reactjs-code-in-windows-and-linux"></a>
+2. Using `package.json` file. <a name="hide-reactjs-code-in-windows-and-linux"></a>
+
+---
 
 The way of remove map files using this way is OS dependent
 lets open the `package.json` file and go to script object and change your build command like below,
@@ -144,7 +147,9 @@ NOTE: What is prebuild and postbuild ?
 
 NOTE: "Remove the .map files" sadly isn't enough. The build also enerates a asset-manifest.json file that contains references to that map files.
 
-**3. using `cross-env` library** <a name="cross-env-to-hide-reactjs-code"></a>
+3. using `cross-env` library <a name="cross-env-library-to-hide-reactjs-code"></a>
+
+---
 
 install `cross-env` library in devDependency
 
@@ -169,7 +174,9 @@ Notice that you don't use && to move to the next task.
 
 Notice that if you want to set multiple global vars, you just state them in succession, followed by your command to be executed.
 
-**4. Build you custom js file to delete map files** <a name="delete-map-file-in-reactjs"></a>
+4. Build you custom js file to delete map files <a name="delete-map-file-in-reactjs"></a>
+
+---
 
 ```js
 "build": "react-scripts build",
