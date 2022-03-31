@@ -5,7 +5,7 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 ## Table of content
 
 1. [Introduction](#introduction)
-2. [What makes your source code visible in the browser](#what-makes-your-source-code-visible-in-the-browser)
+2. [What makes your source code visible in the browser](#map-file-in-reactjs)
 3. [Hide your ReactJS code using `.env` file](#env-file-in-reactjs)
 4. [Hide ReactJS code Using package.json file](#hide-reactjs-code-in-windows-and-linux)
 5. [Hide ReactJS code using cross-env library](#cross-env-library-to-hide-reactjs-code)
