@@ -7,7 +7,7 @@ In this blog post I am going to tell you something about hiding `ReactJS` code i
 1. [Introduction](#introduction)
 2. [What makes your source code visible in the browser](#map-file-in-reactjs)
 3. [Hide your ReactJS code using `.env` file](#env-file-in-reactjs)
-4. [Hide ReactJS code Using package.json file](#hide-reactjs-code-in-windows-and-linux)
+4. [Hide ReactJS code using package.json file](#hide-reactjs-code-in-windows-and-linux)
 5. [Hide ReactJS code using cross-env library](#cross-env-library-to-hide-reactjs-code)
 6. [Custom JavaScript file to hide ReactJS code](#delete-map-file-in-reactjs)
 7. [Conclusion](#conclusion)
@@ -213,6 +213,10 @@ function deleteMaps(dir) {
 
 ["./build/static/css/", "./build/static/js/"].map(deleteMaps);
 ```
+
+## Conclusion
+
+Awesome! Now you become an expert in hiding the `ReactJS` code from the Production environment. I hope you have now a very clear idea that why the `ReactJS` codes are visible in browser and the basic reason behind them.
 
 Thank you for reading this far. This is a brief introduction of **Hiding ReactJS code in Production Environment**.
 
