@@ -1,6 +1,6 @@
 Hello Devs,
 
-In this blog post I am going to tell you something about hiding reactjs code in production server.
+In this blog post I am going to tell you something about hiding `ReactJS` code in production server.
 
 ## Table of content
 
@@ -14,18 +14,18 @@ In this blog post I am going to tell you something about hiding reactjs code in 
 
 ## 1.Introduction <a name="introduction"></a>
 
-I am sure you have developed a ReactJS application using create-react-app or your own webpack configuration and also deployed it in some hosting platform like Netlify, Vercel, Heroku, Azure, AWS etc.
+I am assuming that you have developed a `ReactJS` application using `create-react-app` (CLI tool for setting up a boilerplate setup to make React apps.)or your own `webpack` configuration and also deployed it in some hosting platform like Netlify, Vercel, Heroku, Azure, AWS etc.
 But have you ever opened your website and in developers tool of your browser, have you ever checked the source tab of it.
-If not! Please go and check and see whether your ReactJS codes are visible to public or not like below.
+If not! Please go to your website and check whether your `ReactJS` codes are visible to public or not like below.
 
 ![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.JPG?raw=true)
 
-If you have your code visible like this, then you are in correct place of this Planet to hide your react codes.
-By the end of this blog post I will show you what are the different ways to hide the reactjs codes in production environment and their advantages/ disadvantages.
+If you have your code visible like this, then you are in the correct place in this Planet to hide your `ReactJS` codes.
+By the end of this blog post I will show you what are the different possible ways to hide the `ReactJS` codes in production environment and their advantages/ disadvantages.
 
-If you know how to hide the react codes, then also you can have a glance on the other ways of doing so and let me know in the comment whether you are knowing that or not.
+If you already know how to hide the `ReactJS` codes what I would recommend you to have a glance at this blog and the other posible ways and let me know in the comment whether you are knowing that or not.
 
-## 2.What makes your source code visible in the browser <a name="map-file-in-reactjs"></a>
+## 2.What makes your `ReactJS` source code visible in the browser <a name="map-file-in-reactjs"></a>
 
 ---
 
@@ -33,22 +33,25 @@ Its map files, but what are they ?
 
 **_If you are in hurry to remove only hide your reactjs code from production then go to next topic [Hide your ReactJS Code](#env-file-in-reactjs)_**
 
-When you are buiding reactjs code babel JSX into the native javascript code (minified JavaScript file) which is little harder to debug withing your components when any error comes, so webpack and babel creates a map file (map files are JSON blob which are non readable by humans).
+When you are building reactjs code, babel converts `JSX` into the native `JavaScript` code (minified `JavaScript` file) which is difficult to debug **withing your components** when any error comes, so webpack and babel creates a map file (map files are JSON blob which are non readable by Humans).
 
-A sourcemap is a mapping between the generated/transpiled/minified JavaScript file and one or more original source files. The main purpose of sourcemaps is to aid debugging. Basically, if there’s an error in the generated code file, the map can tell you the original source file location. That’s it. It’s pretty powerful in practice!
-source[https://trackjs.com/blog/debugging-with-sourcemaps/]
+A `sourcemap` is a mapping between the generated/transpiled/minified `JavaScript` file and one or more original source files. The main purpose of `sourcemaps` is to aid debugging. Basically, if there’s an error in the generated code file, the map can tell you the original source file location.
 
-[https://medium.com/@Linda_Ikechukwu/easy-debugging-in-react-with-webpack-source-maps-5dd80a753cab]
+Now back to the code,
 
-Now run `npm run build` command lets create a build folder of your reactjs app.
-and then please check you map files inside build\static\js.
+We run `npm run build` command to create a build folder of your `ReactJS` app which we deploy to run our application in Production.
+
+Have you ever checked what this build folder consists of ?
+Build folder consists of the minified version of you `ReactJS` application which includes HTML, CSS, and JavaScript files. It also includes `map` files.
+
+**Please check you map files inside build\static\js.**
 
 ![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.JPG?raw=true)
 
 NOTE : if you deploy this build file then your code will be visible in the browser.
-so you can delete the map files and then deploy the build folder, but thats not the correct way of doing so and thats not the way a developer will do.
+so you can delete the map files manually and then deploy the build folder, but thats not the correct way of doing so and thats not the way any developer likes to do.
 
-In your localhost (dev environment) webpack auto generates the source map files so that you can see the line numbers of the error in your code
+In your localhost (dev environment) webpack auto generates the `sourcemap` files so that you can see the line numbers of the error(if any) in your code
 
 So, without wasting time, lets begin
 
