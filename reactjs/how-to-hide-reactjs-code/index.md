@@ -23,7 +23,7 @@ If not! Please go to your website and check whether your `ReactJS` codes are vis
 If you have your code visible like this, then you are in the correct place in this Planet to hide your `ReactJS` codes.
 By the end of this blog post I will show you what are the different possible ways to hide the `ReactJS` codes in production environment and their advantages/ disadvantages.
 
-If you already know how to hide the `ReactJS` codes what I would recommend you to have a glance at this blog and the other posible ways and let me know in the comment whether you are knowing that or not.
+If you already know how to hide the `ReactJS` codes what I would recommend you to have a glance at this blog and the other possible ways and let me know in the comment whether you are knowing that or not.
 
 ## 2.What makes your `ReactJS` source code visible in the browser <a name="map-file-in-reactjs"></a>
 
@@ -49,19 +49,19 @@ Build folder consists of the minified version of you `ReactJS` application which
 ![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.JPG?raw=true)
 
 NOTE : if you deploy this build file then your code will be visible in the browser.
-so you can delete the map files manually and then deploy the build folder, but thats not the correct way of doing so and thats not the way any developer likes to do.
+so you can delete the map files manually and then deploy the build folder, but that's not the correct way of doing so and thats not the way any developer likes to do.
 
 In your localhost (dev environment) webpack auto generates the `sourcemap` files so that you can see the line numbers of the error(if any) in your code
 
 So, without wasting time, lets begin
 
-Here are different ways for hiding your reactjs code from browsers,
+Here are different ways for hiding your `ReactJS` code from browsers,
 
 ## 3. Hide your ReactJS code using `.env` file. <a name="env-file-in-reactjs"></a>
 
 ---
 
-create `.env` file in the root of your reactjs application (the place where src folder is there not inside the src folder or else in the same path where package.json is defined)
+create `.env` file in the root of your `ReactJS` application (the place where src folder is there not inside the src folder or else in the same path where package.json is defined)
 
 Now, add below line of code in it
 
@@ -69,7 +69,7 @@ Now, add below line of code in it
 GENERATE_SOURCEMAP = false;
 ```
 
-and then make a build of your reactjs app using command `npm run build`
+and then make a build of your `ReactJS` app using command `npm run build`
 
 What it will do is, it will create a build folder without the map files[link of above topic of map file]. You can go inside the build\static\js
 
@@ -77,7 +77,7 @@ What it will do is, it will create a build folder without the map files[link of 
 
 This way to generating build folder is not Operating System dependent.
 
-Deploy the app now and you cannot see the code in source tab in deelopers tool of your browser
+Deploy the app now and you cannot see the code in source tab in developers tool of your browser
 
 ## 4.Using `package.json` file. <a name="hide-reactjs-code-in-windows-and-linux"></a>
 
@@ -148,7 +148,7 @@ NOTE: What is prebuild and postbuild ?
 "delete-references-to-map-files": "find ./build -regex '._\\.\\(js\\|css\\)' -exec sed -i -E '\\/[\\*\\/]#\\ssourceMappingURL=main(\\.[0-9a-f]+)?\\.(css|js)\\.map(\\\*\\/)?/g' {} +"
 ```
 
-NOTE: "Remove the .map files" sadly isn't enough. The build also enerates a asset-manifest.json file that contains references to that map files.
+NOTE: "Removing only the .map files" sadly isn't enough. The build also enerates a asset-manifest.json file that contains references to that map files.
 
 ## 5.using `cross-env` library <a name="cross-env-library-to-hide-reactjs-code"></a>
 
@@ -216,6 +216,8 @@ function deleteMaps(dir) {
 
 ## Conclusion
 
+---
+
 Awesome! Now you become an expert in hiding the `ReactJS` code from the Production environment. I hope you have now a very clear idea that why the `ReactJS` codes are visible in browser and the basic reason behind them.
 
 Thank you for reading this far. This is a brief introduction of **Hiding ReactJS code in Production Environment**.
@@ -227,5 +229,4 @@ VISIT https://www.capscode.in/blog TO LEARN MORE...
 See you in my next Blog article, Take care!!
 
 Thanks,
-
 CapsCode
