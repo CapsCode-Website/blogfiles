@@ -18,7 +18,7 @@ I am assuming that you have developed a `ReactJS` application using `create-reac
 But have you ever opened your website and in developers tool of your browser, have you ever checked the source tab of it.
 If not! Please go to your website and check whether your `ReactJS` codes are visible to public or not like below.
 
-![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/1.JPG?raw=true)
+![codeinbrowser](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code-from-browser/1.JPG?raw=true)
 
 If you have your code visible like this, then you are in the correct place in this Planet to hide your `ReactJS` codes.
 By the end of this blog post I will show you what are the different possible ways to hide the `ReactJS` codes in production environment and their advantages/ disadvantages.
@@ -46,7 +46,7 @@ Build folder consists of the minified version of you `ReactJS` application which
 
 **Please check you map files inside build\static\js.**
 
-![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/2.JPG?raw=true)
+![image of map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code-from-browser/2.JPG?raw=true)
 
 NOTE : if you deploy this build file then your code will be visible in the browser.
 so you can delete the map files manually and then deploy the build folder, but that's not the correct way of doing so and thats not the way any developer likes to do.
@@ -73,7 +73,7 @@ and then make a build of your `ReactJS` app using command `npm run build`
 
 What it will do is, it will create a build folder without the map files[link of above topic of map file]. You can go inside the build\static\js
 
-![image of the build folder without map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code/3.JPG?raw=true)
+![image of the build folder without map files](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/reactjs/how-to-hide-reactjs-code-from-browser/3.JPG?raw=true)
 
 This way to generating build folder is not Operating System dependent.
 
