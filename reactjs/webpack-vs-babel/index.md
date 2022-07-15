@@ -1,3 +1,9 @@
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
 Creating a React application requires you to set up build tools such as Babel and Webpack. These build tools are required because React's JSX syntax is a language that the browser doesn't understand.
 To run your React application, you need to turn your JSX into plain JavaScript, which browsers understand.
 https://stackoverflow.com/questions/46337918/difference-between-webpack-babel-and-react-scripts
@@ -20,3 +26,5 @@ React uses ES6 classes and import statements, something that all the browsers ma
 https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/
 
 https://www.youtube.com/watch?v=GU-2T7k9NfI
+
+https://indepth.dev/posts/1230/source-maps-from-top-to-bottom
