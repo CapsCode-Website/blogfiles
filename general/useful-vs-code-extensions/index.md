@@ -3,11 +3,16 @@ Hello Devs,
 In this blog post I am going to tell you some of the interesting and useful VS Code extensions which will be very helpful for you all in your development career.
 
 ## Table of content
+---
 
 1. [Introduction](#introduction)
 2. [VS Code Extension List](#vscodeextensionlist)
+3. [Conclusion](#conclusion)
+
+
 
 # Introduction <a name="introduction"></a>
+---
 
 Their are lots of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definetly make your life easy and increase your productivity.
 So without wasting time, lets see the extensions below.
@@ -339,14 +344,12 @@ With this extension we can just select the block of code which we want to move a
 
 ![vscodereactrefactor](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/vscode_react_refactor.JPG?raw=true)
 
-
 ## 43. Polacode
 
 This extension takes beautiful screenshots of your code in VS Code.
 You can say this extension as an alternative of CodeSnap
 
 ![polacode](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/polacode.JPG?raw=true)
-
 
 ## 44. Remind Me
 
@@ -355,20 +358,17 @@ This extension will remind you for something along with writing code in vs code 
 
 ![beautify](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/remindme.JPG?raw=true)
 
-
 ## 45.Excel Viewer
 
 Edit Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the Web
 
 ![excelviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/excel_viewer.JPG?raw=true)
 
-
 ## 46. Turbo Console Log
 
 console.log can make or break your productivity. Turbo Console Log is an active plugin for VS Code that lets you select the variable for the subject of your debugging and automatically adds log messages to the nearest line relative. This lets you rapidly debug without writing any console.log code.
 
 ![excelviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/turbo_consolelog.JPG?raw=true)
-
 
 ## 47. Test Explorer UI
 
@@ -398,6 +398,20 @@ Are you using VS Code for your all development/ coding related stuffs like creat
 
 
 
-Thanks,
+# Conclusion <a name="introduction"></a>
+---
 
+We have listed almost all the famous and useful VS Code extension which will help you and make you more productive throughout your career.
+
+Thank you for reading this so far. This is a brief introduction on some of the VS Code Extension
+
+If you find this article useful, share this article. Someone could find it useful too. If you find anything technically inaccurate please feel free to create a [issue](https://github.com/CapsCode-Website/blogfiles/issues).
+
+Hope its a nice and informative read for you.
+VISIT https://www.capscode.in/blog TO LEARN MORE...
+
+See you in my next Blog article, Take care !!!
+
+Thanks,
 CapsCode
+
