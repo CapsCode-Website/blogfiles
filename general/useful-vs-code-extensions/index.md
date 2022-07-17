@@ -20,6 +20,8 @@ Please feel free to add some more extension by editing this post here[github lin
 This is the most famous and used extension in vs code.
 This extension is used to format the code which means when we write codes we sometimes didnt consider line break or brackets after a space and some of the stuffs like this. This extension automatically beautify your code and make it clean and more readable.
 
+It support lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
+
 ![prettier](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/prettier.JPG?raw=true)
 
 ## 2. ToDo Highlight
@@ -307,6 +309,9 @@ This extension provides the linting rule for css and scss files.
 ## 39. Quokka.js
 
 Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
+
+Press ctl+shift+p(show all command shortcut) in VS Code in windows machine.
+from here you can create new js file with quokka see start you JS coding
 
 ![quokka](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/quokka_js.JPG?raw=true)
 
