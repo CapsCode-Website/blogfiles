@@ -343,19 +343,17 @@ With this extension we can just select the block of code which we want to move a
 ## 43. Polacode
 
 This extension takes beautiful screenshots of your code in VS Code.
-This is very helpful and useful when you are documenting the code or sharing it with someone within the mail or social media platform.
+You can say this extension as an alternative of CodeSnap
 
 ![polacode](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/polacode.JPG?raw=true)
 
 
-## 44. Beautify
+## 44. Remind Me
 
-This is the most famous and used extension in vs code.
-This extension is used to format the code which means when we write codes we sometimes didnt consider line break or brackets after a space and some of the stuffs like this. This extension automatically beautify your code and make it clean and more readable.
+This is a simple reminder applicaiton in VS Code, 
+This extension will remind you for something along with writing code in vs code itself
 
-It support lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
-
-![beautify](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/beautify.JPG?raw=true)
+![beautify](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/remindme.JPG?raw=true)
 
 
 ## 45.Excel Viewer
@@ -367,34 +365,34 @@ Edit Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the 
 
 ## 46. Turbo Console Log
 
-Console logs can make or break your productivity. Turbo Console Log is an active plugin for VS Code that lets you select the variable for the subject of your debugging and automatically adds log messages to the nearest line relative. This lets you rapidly debug without writing any console.log code.
+console.log can make or break your productivity. Turbo Console Log is an active plugin for VS Code that lets you select the variable for the subject of your debugging and automatically adds log messages to the nearest line relative. This lets you rapidly debug without writing any console.log code.
 
 ![excelviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/turbo_consolelog.JPG?raw=true)
 
 
 ## 47. Test Explorer UI
 
-Testing can be a manual process, if not a complicated one. TEST Explorer UI is an extension that provides developers with a UI for running their tests in Visual Studio Code. This plugin extension supports a myriad of languages and includes JavaScript, ABAP, C, C++, Exlir, Elm, Go, Haxe, Java, Python, Ruby, REST/GraphQL, and other popular languages and implementations.
+this extension provides developers a UI for running their tests in Visual Studio Code. This extension supports languages like JavaScript, C, C++, Exlir, Elm, Go, Haxe, Java, Python, Ruby, REST/GraphQL, and other popular languages and implementations.
 
 ![testeplorerui](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/test_explorer_ui.JPG?raw=true)
 
 ## 48. ES7+ React/Redux/React-Native snippets
 
-JavaScript is everywhere, and ES7, React, Redux & GraphQL Snippets cover almost everything you need to get started with modern app development efficiently. This plugin extension makes a great alternative to any other JavaScript-based code snippets that you might already be using.
+This extension is very amazing and covers all the JavaScript frameworks or libraries snippets and makes our life easier.
 
 ![react_redux_snippet](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/react_redux_snippet.JPG?raw=true)
 
 ## 49. Bookmarks
 
-Although VSCode has line numbers, Bookmarks allows you to add bookmarks to your code, helping you quickly navigate and easily jump back and forth.
+This extension allows you to add bookmarks to your code, helping you quickly navigate and easily jump back and forth.
 
-Additionally, it allows you to select regions of code between bookmarked code, which is quite useful for something like log file analysis.
+Additionally, it allows you to select regions of code between bookmarked code, which is very much useful in development world.
 
 ![bookmarks](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/bookmarks.JPG?raw=true)
 
 ## 50. Profile Switcher
 
-Do you use your VS Code app for various development reasons like creating hot tip tutorials, developing your portfolio site, or switching between tech stacks often? Profile switcher allows you to create different profiles that save specific extensions, like one for React and one for Angular, so you only have to change your configurations for each tech stack once.
+Are you using VS Code for your all development/ coding related stuffs like creating creating frontend in javascript, writing backend code in python or switching between tech stacks often? This extension allows you to create different profiles that save specific extensions, like one for React and one for Angular one for Python etc so you only have to change your configurations for each tech stack once.
 
 ![profileswitcher](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/profile_switcher.JPG?raw=true)
 
