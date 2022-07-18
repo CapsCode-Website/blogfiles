@@ -176,7 +176,7 @@ This extension is most popular in vs code marketplace for managing and maintaini
 
 This extension shows the commit date and commit message in each line of code (this feature is really very useful and helpful).
 
-[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+[https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ![gitlens](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/git_lens.JPG?raw=true)
 
