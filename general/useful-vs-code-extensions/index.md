@@ -14,7 +14,7 @@ In this blog post I am going to tell you some of the interesting and useful VS C
 # Introduction <a name="introduction"></a>
 ---
 
-Their are lots of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definetly make your life easy and increase your productivity.
+Their are lots of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definitely make your life easy and increase your productivity.
 So without wasting time, lets see the extensions below.
 Please feel free to add some more extension by editing this post here[github link]
 
@@ -23,7 +23,7 @@ Please feel free to add some more extension by editing this post here[github lin
 ## 1. Prettier
 
 This is the most famous and used extension in vs code.
-This extension is used to format the code which means when we write codes we sometimes didnt consider line break or brackets after a space and some of the stuffs like this. This extension automatically beautify your code and make it clean and more readable.
+This extension is used to format the code which means when we write codes we sometimes didn't consider line break or brackets after a space and some of the stuffs like this. This extension automatically beautify your code and make it clean and more readable.
 
 It support lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
 
@@ -31,7 +31,7 @@ It support lots of programming languages like JavaScript, TypeScript, Flow, JSX,
 
 ## 2. ToDo Highlight
 
-Sometimes when we write code lots of ideas and logic runs in mind and we use to write those ideas as a comment in the code block and again after few day if we want to recall them its pretty dificut to find them whitin the code.
+Sometimes when we write code lots of ideas and logic runs in mind and we use to write those ideas as a comment in the code block and again after few day if we want to recall them its pretty difficult to find them within the code.
 So this extension comes with a wonderful feature of highlighting certain keywords within the code like NOTE, TODO, FIXIT and also it provides a feature to customize the keywords and their background, foreground and text color.
 To customize the keywords and other stuff, command + , (Windows / Linux: File -> Preferences -> User Settings) open the vscode file settings.json.
 
@@ -39,7 +39,7 @@ To customize the keywords and other stuff, command + , (Windows / Linux: File ->
 
 ## 3. Live Server
 
-This extesion launch a local development server with live reload feature for static & dynamic pages so you dont need to save and rerun the file or reload the web page to see the new changes.
+This extension launch a local development server with live reload feature for static & dynamic pages so you don't need to save and rerun the file or reload the web page to see the new changes.
 
 ![liveserver](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/live_server.JPG?raw=true)
 
@@ -60,9 +60,9 @@ If you are teaching online or giving training/mentoring, this extension will be 
 ## 6. Code Spell Checker
 
 When we write code, sometimes we by mistake type a wrong spelling of some content within the code (not the programming language keywords).
-This extension checks for the spelling mistake in the source code and works well with camelcase code as well.
+This extension checks for the spelling mistake in the source code and works well with camelcase code as well. This extension is one of the must have extension for developers who writes code.
 
-NOTE : this extension has lot of other version for different languages (like Russian, Spanish, German, Frechn etc), do checkout for this in vs code marketplace if you need any of them.
+NOTE : This extension has lot of other version for different languages (like Russian, Spanish, German, French etc), do checkout for this in vs code marketplace if you need any of them.
 
 ![codespellchecker](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/code_spell_checker.JPG?raw=true)
 
@@ -117,7 +117,7 @@ This extension generate a rainbow palette within the opening and closing tags or
 
 ## 14. Peacock
 
-This extension is very helpful for the developers who work in multiple VS Code workspaces and they have to switch between these workspaces very frequently. Sometimes developer gets confused which workspcae is for what, Using this extension one can color the vs code workspace sidebar with multiple color so that the workspace can be identified easily while switching between the workspaces.
+This extension is very helpful for the developers who work in multiple VS Code workspaces and they have to switch between these workspaces very frequently. Sometimes developer gets confused which workspace is for what, Using this extension one can color the vs code workspace sidebar with multiple color so that the workspace can be identified easily while switching between the workspaces.
 
 This is one of my favourite extension.
 
@@ -133,13 +133,13 @@ Sometimes this extension is useful if you are running older version of vs code.
 ## 16. Git Graph
 
 This extension is one of the most useful extension in the development world.
-This extension help you the view the git histories (commits, stashes etc) in graphical way and you can also perform git actions directly from this extsion dashboard.
+This extension help you the view the git histories (commits, stashes etc) in graphical way and you can also perform git actions directly from this extension dashboard.
 
 ![gitgraph](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/git_graph.JPG?raw=true)
 
 ## 17. Git Lens
 
-This extension is most popular in vs code marketplace for managing and maintaing source code in vs code. This extension provides a lot of features like you can pull, push, commit and also compare codes and a whole lot of feature.
+This extension is most popular in vs code marketplace for managing and maintaining source code in vs code. This extension provides a lot of features like you can pull, push, commit and also compare codes and a whole lot of feature.
 
 This extension shows the commit date and commit message in each line of code (this feature is really very useful and helpful).
 
@@ -161,13 +161,13 @@ it support lots of languages like English, Spanish, German, French, Dutch etc.
 
 ## 20. ES Lint
 
-This extension is useful for JavaScript developer and most of the developer use this extension. This extension provides the predefined linitng rules which help developers to write less buggy codes and also using this extension developer can imporove their code quality
+This extension is useful for JavaScript developer and most of the developer use this extension. This extension provides the predefined linting rules which help developers to write less buggy codes and also using this extension developer can improve their code quality
 
 Once ESLint is installed in Visual Studio Code, you’ll notice colorful underlining in your .js files highlighting errors. These markers are color-coded based on severity. If you hover over your underlined code, you will see a message that explains the error to you. In this way, ESLint helps us find and remove code and syntax errors.
 
 ESLint can do even more for you. ESLint can be modified to automatically fix errors every time a file is saved.
 
-You can also change the configuration of this extenion by navigation to .vscode/setting.json file like
+You can also change the configuration of this extension by navigation to .vscode/setting.json file like
 
 ```js
 {
@@ -187,13 +187,13 @@ like highlight the console.log statements and whole lot of other stuffs similar 
 
 SonarLint is a free IDE extension that lets you fix coding issues before they exist! Like a spell checker, SonarLint highlights Bugs and Security Vulnerabilities as you write code, with clear remediation guidance so you can fix them before the code is even committed. SonarLint in VS Code supports analysis of C, C++, HTML, Java, JavaScript, PHP, Python and TypeScript.
 
-This extension is modtly used for get out of Security Vulnerabilities in the code.
+This extension is mostly used for get out of Security Vulnerabilities in the code.
 
 ![sonarlint](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/sonarlint.JPG?raw=true)
 
 ## 22. Web Accessibility
 
-This extension higlights the piece of code which needs to be improves to make it more accessible. This extension also give the hint for chaning it.
+This extension highlights the piece of code which needs to be improves to make it more accessible. This extension also give the hint for changing it.
 
 ![web_accessibility](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/web_accessibility.JPG?raw=true)
 
@@ -206,14 +206,14 @@ Wallaby.js is a developer productivity tool that runs your JavaScript and TypeSc
 ## 24. Better Comments
 
 This extension will help you to write more human-friendly comments in your code.
-With this extension, you will be able to categorise your annotations into:
+With this extension, you will be able to categorize your annotations into:
 Alerts
 Queries
 TODOs
 Highlights
 Commented out code can also be styled to make it clear the code shouldn't be there
 
-and all these annotaions you can colorize with whatever color you want to based on the category.
+and all these annotations you can colorize with whatever color you want to based on the category.
 
 Any other comment styles you'd like can be specified in the settings
 
@@ -272,7 +272,7 @@ This extension contains code snippets for JavaScript in ES6 syntax for VS Code e
 
 ## 32. ReactJS Code Snippet
 
-This extension contains code snippets for Reactjs and is based on the awesome babel-sublime-snippets package.
+This extension contains code snippets for ReactJS and is based on the awesome babel-sublime-snippets package.
 
 ![reactjscodesnippet](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/react_js_code_snippet.JPG?raw=true)
 
@@ -283,13 +283,13 @@ Jumpy provides fast cursor movement, inspired by Atom's package of the same name
 
 ## 34. Path Intellisense
 
-Visual Studio Code plugin that autocompletes filenames.
+Visual Studio Code plugin that autocomplete filenames.
 
 ![pathintellisense](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/path_intellisense.JPG?raw=true)
 
 ## 35. NPM Intellisense
 
-Visual Studio Code plugin that autocompletes npm modules in import statements
+Visual Studio Code plugin that autocomplete npm modules in import statements
 
 ![npmintellisene](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/npm_intellisense.JPG?raw=true)
 
@@ -316,7 +316,7 @@ This extension provides the linting rule for css and scss files.
 Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
 
 Press ctl+shift+p(show all command shortcut) in VS Code in windows machine.
-from here you can create new js file with quokka see start you JS coding
+from here you can create new js file with Quokka see start you JS coding
 
 ![quokka](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/quokka_js.JPG?raw=true)
 
@@ -331,7 +331,7 @@ This is very amazing and very helpful extension
 
 ## 41. VS Code Icons
 
-This extension is just for fun and to make your vs code looks attractive. This extension creaetes icons based on the file type and those really look very awesome.
+This extension is just for fun and to make your vs code looks attractive. This extension creates icons based on the file type and those really look very awesome.
 
 ![vscodeicons](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/vscode_icons.JPG?raw=true)
 
@@ -353,7 +353,7 @@ You can say this extension as an alternative of CodeSnap
 
 ## 44. Remind Me
 
-This is a simple reminder applicaiton in VS Code, 
+This is a simple reminder application in VS Code, 
 This extension will remind you for something along with writing code in vs code itself
 
 ![beautify](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/remindme.JPG?raw=true)
@@ -398,7 +398,7 @@ Are you using VS Code for your all development/ coding related stuffs like creat
 
 
 
-# Conclusion <a name="introduction"></a>
+# Conclusion <a name="conclusion"></a>
 ---
 
 We have listed almost all the famous and useful VS Code extension which will help you and make you more productive throughout your career.
