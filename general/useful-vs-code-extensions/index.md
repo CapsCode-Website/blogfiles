@@ -27,6 +27,8 @@ This extension is used to format the code which means when we write codes we som
 
 It support lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
 
+[https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
 ![prettier](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/prettier.JPG?raw=true)
 
 ## 2. ToDo Highlight
@@ -35,17 +37,23 @@ Sometimes when we write code lots of ideas and logic runs in mind and we use to 
 So this extension comes with a wonderful feature of highlighting certain keywords within the code like NOTE, TODO, FIXIT and also it provides a feature to customize the keywords and their background, foreground and text color.
 To customize the keywords and other stuff, command + , (Windows / Linux: File -> Preferences -> User Settings) open the vscode file settings.json.
 
+[https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+
 ![todohighlight](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/todo_highlight.JPG?raw=true)
 
 ## 3. Live Server
 
 This extension launch a local development server with live reload feature for static & dynamic pages so you don't need to save and rerun the file or reload the web page to see the new changes.
 
+[https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
 ![liveserver](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/live_server.JPG?raw=true)
 
 ## 4. Live Share
 
 This extension enables you to collaboratively edit and debug with others in real time for any programming languages you're using or app types you're building. It allows you to instantly (and securely) share your current project.
+
+[https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 ![liveshare](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/live_share.JPG?raw=true)
 
@@ -54,6 +62,8 @@ This extension enables you to collaboratively edit and debug with others in real
 This extension adds audio calling capabilities to Visual Studio Live Share (discussed in point no. 4).
 Participants within a Live Share session can automatically join the call, and chat amongst each other, without needing to first coordinate which voice communication tool to use.
 If you are teaching online or giving training/mentoring, this extension will be very helpful.
+
+[https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)
 
 ![liveshareaudio](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/live_share_audio.JPG?raw=true)
 
@@ -64,12 +74,16 @@ This extension checks for the spelling mistake in the source code and works well
 
 NOTE : This extension has lot of other version for different languages (like Russian, Spanish, German, French etc), do checkout for this in vs code marketplace if you need any of them.
 
+[https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
 ![codespellchecker](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/code_spell_checker.JPG?raw=true)
 
 ## 7. Code Snap
 
 This extension takes beautiful screenshots of your code in VS Code.
 This is very helpful and useful when you are documenting the code or sharing it with someone within the mail or social media platform.
+
+[https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
 
 ![codesnap](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/codesnap.JPG?raw=true)
 
@@ -80,6 +94,8 @@ You have login to this extension and they have a wonderful web app to show the m
 They have free as well as paid plans.
 This extension are mostly used by freelancers to show the time report to the clients.
 
+[https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode](https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode)
+
 ![codetime](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/code_time.JPG?raw=true)
 
 ## 9. Code Runner
@@ -89,11 +105,16 @@ This extension is very useful for the developers. Using this extension you can s
 You just have to select the block of code and then right click and run.
 This extension support lot of programming languages like C, C++, Java, JavaScript, Python, PowerShell, BAT/CMD, BASH/SH, Dart and a lot more.
 You can run the custom commands as well.
+
+[https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+
 ![coderunner](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/code_runner.JPG?raw=true)
 
 ## 10. Color Highlight
 
 This extension is used to highlight the CSS color in your code so that it will become more visible to you. This extensions colors only in the border of the css color code.
+
+[https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
 ![colorhighlight](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/color_highlight.JPG?raw=true)
 
@@ -101,17 +122,23 @@ This extension is used to highlight the CSS color in your code so that it will b
 
 This extension is used to highlight the CSS color in your code so that it will become more visible to you. This extensions colors the css color code with the same color code fill.
 
+[https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
+
 ![colorize](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/colorize.JPG?raw=true)
 
 ## 12. Indent Rainbow Palettes
 
 This extension generate a rainbow palette within the opening and closing tags or element or brackets with different color code which makes code block more readable and you code will look nicer.
 
+[https://marketplace.visualstudio.com/items?itemName=evondev.indent-rainbow-palettes](https://marketplace.visualstudio.com/items?itemName=evondev.indent-rainbow-palettes)
+
 ![indentrainbowpalettes](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/indent_rainbow_palettes.JPG?raw=true)
 
 ## 13. Indent Rainbow
 
 This extension generate a rainbow palette within the opening and closing tags or element or brackets with different color code which makes code block more readable and you code will look nicer.
+
+[https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
 ![indientrainbow](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/indient_rainbow.JPG?raw=true)
 
@@ -121,6 +148,8 @@ This extension is very helpful for the developers who work in multiple VS Code w
 
 This is one of my favourite extension.
 
+[https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+
 ![peacock](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/peacock.JPG?raw=true)
 
 ## 15. Bracket Pair Colorozation Toggler
@@ -128,12 +157,16 @@ This is one of my favourite extension.
 A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
 Sometimes this extension is useful if you are running older version of vs code.
 
+[https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler](https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler)
+
 ![bracketpaircolorozationtoggler](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/bracket_pair_colorozation_toggler.JPG?raw=true)
 
 ## 16. Git Graph
 
 This extension is one of the most useful extension in the development world.
 This extension help you the view the git histories (commits, stashes etc) in graphical way and you can also perform git actions directly from this extension dashboard.
+
+[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ![gitgraph](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/git_graph.JPG?raw=true)
 
@@ -143,6 +176,8 @@ This extension is most popular in vs code marketplace for managing and maintaini
 
 This extension shows the commit date and commit message in each line of code (this feature is really very useful and helpful).
 
+[https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
 ![gitlens](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/git_lens.JPG?raw=true)
 
 ## 18. Git History
@@ -150,12 +185,16 @@ This extension shows the commit date and commit message in each line of code (th
 Using this extension you can check the logs (history) of your git repo and also you can see which line of code or file you have changed on which date and which developer has changed.
 This extension is helpful if you want to check some older version of code.
 
+[https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
 ![githistory](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/git_history.JPG?raw=true)
 
 ## 19. i18n Ally
 
 This extension is used to translate the text in your code to some other language.
 it support lots of languages like English, Spanish, German, French, Dutch etc.
+
+[https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally)
 
 ![i18n_ally](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/i18n_ally.JPG?raw=true)
 
@@ -181,6 +220,8 @@ You can also change the configuration of this extension by navigation to .vscode
 You can also customize the Linting Rules.
 like highlight the console.log statements and whole lot of other stuffs similar to this.
 
+[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
 ![eslint](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/eslint.JPG?raw=true)
 
 ## 21. Sonar Lint
@@ -189,17 +230,23 @@ SonarLint is a free IDE extension that lets you fix coding issues before they ex
 
 This extension is mostly used for get out of Security Vulnerabilities in the code.
 
+[https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
 ![sonarlint](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/sonarlint.JPG?raw=true)
 
 ## 22. Web Accessibility
 
 This extension highlights the piece of code which needs to be improves to make it more accessible. This extension also give the hint for changing it.
 
+[https://marketplace.visualstudio.com/items?itemName=MaxvanderSchee.web-accessibility](https://marketplace.visualstudio.com/items?itemName=MaxvanderSchee.web-accessibility)
+
 ![web_accessibility](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/web_accessibility.JPG?raw=true)
 
 ## 23. Wallaby.js
 
 Wallaby.js is a developer productivity tool that runs your JavaScript and TypeScript tests immediately as you type, highlighting results in your IDE right next to your code.
+
+[https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode](https://marketplace.visualstudio.com/items?itemName=WallabyJs.wallaby-vscode)
 
 ![wallaby](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/wallaby_js.JPG?raw=true)
 
@@ -219,6 +266,8 @@ Any other comment styles you'd like can be specified in the settings
 
 You can write TODO also and this this extension will highlight that as well.
 
+[https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
 ![bettercomment](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/better_comments.JPG?raw=true)
 
 ## 25. CSS Peek
@@ -230,17 +279,23 @@ and also you can able to
 ~Go To: jump directly to the css file or open it in a new editor (F12)
 ~Hover: show the definition in a hover over the symbol (Ctrl+hover)
 
+[https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+
 ![css_peek](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/css_peek.JPG?raw=true)
 
 ## 26. DotENV
 
 This extension is useful for .env syntax highlighting.
 
+[https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+
 ![dotenv](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/dot_env.JPG?raw=true)
 
 ## 27. Auto Import
 
 Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX.
+
+[https://marketplace.visualstudio.com/items?itemName=steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
 
 ![auto_import](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/auto_import.JPG?raw=true)
 
@@ -249,11 +304,15 @@ Automatically finds, parses and provides code actions and code completion for al
 In most of the frameworks we do import of some external or internal libraries or files.
 This library shows the import cost means the size of the import in realtime in the line of code where you have imported.
 
+[https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+
 ![import_cost](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/import_cost.JPG?raw=true)
 
 ## 29. Auto Close Tag
 
 This extension automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
+
+[https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
 ![autoclosetag](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/auto_close_tag.JPG?raw=true)
 
@@ -262,11 +321,15 @@ This extension automatically add HTML/XML close tag, same as Visual Studio IDE o
 This extension automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
 When you rename one HTML/XML tag, automatically rename the paired HTML/XML tag
 
+[https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
 ![autorenametag](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/auto_rename_tag.JPG?raw=true)
 
 ## 31. JavaScript ES6 Code Snippet
 
 This extension contains code snippets for JavaScript in ES6 syntax for VS Code editor (supports both JavaScript and TypeScript).
+
+[https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 ![javascriptcodesnippet](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/javascript_code_snippet.JPG?raw=true)
 
@@ -274,16 +337,23 @@ This extension contains code snippets for JavaScript in ES6 syntax for VS Code e
 
 This extension contains code snippets for ReactJS and is based on the awesome babel-sublime-snippets package.
 
+[https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+
 ![reactjscodesnippet](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/react_js_code_snippet.JPG?raw=true)
 
 ## 33. Jumpy
 
 Jumpy provides fast cursor movement, inspired by Atom's package of the same name.
+
+[https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy](https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy)
+
 ![jumpy](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/jumpy.JPG?raw=true)
 
 ## 34. Path Intellisense
 
 Visual Studio Code plugin that autocomplete filenames.
+
+[https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 ![pathintellisense](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/path_intellisense.JPG?raw=true)
 
@@ -291,11 +361,15 @@ Visual Studio Code plugin that autocomplete filenames.
 
 Visual Studio Code plugin that autocomplete npm modules in import statements
 
+[https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+
 ![npmintellisene](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/npm_intellisense.JPG?raw=true)
 
 ## 36. Markdownlint
 
 When editing a Markdown file in Code with markdownlint installed, any lines that violate one of markdownlint's rules (see below) will trigger a Warning in the editor.
+
+[https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 ![markdownlint](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/markdownlint.JPG?raw=true)
 
@@ -303,11 +377,15 @@ When editing a Markdown file in Code with markdownlint installed, any lines that
 
 Shows the current regular expression's matches in a side-by-side document.
 
+[https://marketplace.visualstudio.com/items?itemName=chrmarti.regex](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
+
 ![regexpreviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/regex_previewer.JPG?raw=true)
 
 ## 38. Stylelint
 
 This extension provides the linting rule for css and scss files.
+
+[https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
 ![stylelint](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/stylelint.JPG?raw=true)
 
@@ -318,6 +396,8 @@ Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript pro
 Press ctl+shift+p(show all command shortcut) in VS Code in windows machine.
 from here you can create new js file with Quokka see start you JS coding
 
+[https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+
 ![quokka](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/quokka_js.JPG?raw=true)
 
 ## 40. Project Manager
@@ -327,11 +407,15 @@ You can Organize your projects with Tags
 
 This is very amazing and very helpful extension
 
+[https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+
 ![projectmanager](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/project_manager.JPG?raw=true)
 
 ## 41. VS Code Icons
 
 This extension is just for fun and to make your vs code looks attractive. This extension creates icons based on the file type and those really look very awesome.
+
+[https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 ![vscodeicons](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/vscode_icons.JPG?raw=true)
 
@@ -342,12 +426,16 @@ Sometimes in a code file, we may have a lot of inner JSX and we wanted to move t
 
 With this extension we can just select the block of code which we want to move and whole other lot of stuffs this extension will take care off.
 
+[https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor](https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor)
+
 ![vscodereactrefactor](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/vscode_react_refactor.JPG?raw=true)
 
 ## 43. Polacode
 
 This extension takes beautiful screenshots of your code in VS Code.
 You can say this extension as an alternative of CodeSnap
+
+[https://marketplace.visualstudio.com/items?itemName=pnp.polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
 ![polacode](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/polacode.JPG?raw=true)
 
@@ -356,11 +444,15 @@ You can say this extension as an alternative of CodeSnap
 This is a simple reminder application in VS Code, 
 This extension will remind you for something along with writing code in vs code itself
 
+[https://marketplace.visualstudio.com/items?itemName=cg-cnu.vscode-remind-me](https://marketplace.visualstudio.com/items?itemName=cg-cnu.vscode-remind-me)
+
 ![beautify](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/remindme.JPG?raw=true)
 
 ## 45.Excel Viewer
 
 Edit Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the Web
+
+[https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
 
 ![excelviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/excel_viewer.JPG?raw=true)
 
@@ -368,17 +460,23 @@ Edit Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the 
 
 console.log can make or break your productivity. Turbo Console Log is an active plugin for VS Code that lets you select the variable for the subject of your debugging and automatically adds log messages to the nearest line relative. This lets you rapidly debug without writing any console.log code.
 
+[https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+
 ![excelviewer](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/turbo_consolelog.JPG?raw=true)
 
 ## 47. Test Explorer UI
 
 this extension provides developers a UI for running their tests in Visual Studio Code. This extension supports languages like JavaScript, C, C++, Exlir, Elm, Go, Haxe, Java, Python, Ruby, REST/GraphQL, and other popular languages and implementations.
 
+[https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
+
 ![testeplorerui](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/test_explorer_ui.JPG?raw=true)
 
 ## 48. ES7+ React/Redux/React-Native snippets
 
 This extension is very amazing and covers all the JavaScript frameworks or libraries snippets and makes our life easier.
+
+[https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 ![react_redux_snippet](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/react_redux_snippet.JPG?raw=true)
 
@@ -388,11 +486,15 @@ This extension allows you to add bookmarks to your code, helping you quickly nav
 
 Additionally, it allows you to select regions of code between bookmarked code, which is very much useful in development world.
 
+[https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+
 ![bookmarks](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/bookmarks.JPG?raw=true)
 
 ## 50. Profile Switcher
 
 Are you using VS Code for your all development/ coding related stuffs like creating creating frontend in javascript, writing backend code in python or switching between tech stacks often? This extension allows you to create different profiles that save specific extensions, like one for React and one for Angular one for Python etc so you only have to change your configurations for each tech stack once.
+
+[https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher](https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher)
 
 ![profileswitcher](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/profile_switcher.JPG?raw=true)
 
