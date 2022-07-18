@@ -16,7 +16,7 @@ In this blog post I am going to tell you some of the interesting and useful VS C
 
 Their are lots of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definitely make your life easy and increase your productivity.
 So without wasting time, lets see the extensions below.
-Please feel free to add some more extension by editing this post here[github link]
+Please feel free to add some more extension by editing this post here [link](https://github.com/CapsCode-Website/blogfiles/issues)
 
 # VS Code Extension List <a name="vscodeextensionlist"></a>
 
