@@ -152,14 +152,14 @@ This is one of my favourite extension.
 
 ![peacock](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/peacock.JPG?raw=true)
 
-## 15. Bracket Pair Colorozation Toggler
+## 15. Bracket Pair Colorization Toggler
 
 A VS Code extension that gives you a simple command to quickly toggle the global “Bracket Pair Colorization” setting added in VS Code v1.60.
 Sometimes this extension is useful if you are running older version of vs code.
 
 [https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler](https://marketplace.visualstudio.com/items?itemName=dzhavat.bracket-pair-toggler)
 
-![bracketpaircolorozationtoggler](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/bracket_pair_colorozation_toggler.JPG?raw=true)
+![bracketpaircolorizationtoggler](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/bracket_pair_colorization_toggler.JPG?raw=true)
 
 ## 16. Git Graph
 
