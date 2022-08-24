@@ -119,6 +119,5 @@ I hope this will be helpful in your future project.
 If you liked it please gives us a thumbsup and follow us in Instagram.
 [https://www.instagram.com/capscode/](https://www.instagram.com/capscode/)
 
-Thanks,
-
+Thanks,\
 Team [CapsCode](https://www.capscode.in)

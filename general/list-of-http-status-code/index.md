@@ -170,6 +170,5 @@ See you in my next Blog article, Take care!!
 
 [source/ credit: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
-Thanks,
-
+Thanks,\
 CapsCode

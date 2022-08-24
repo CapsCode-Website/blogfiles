@@ -125,10 +125,8 @@ we are done with how to create Glassmorphism designs, now you can customize it a
 
 If you like it please give a 👍
 
-Thank you,
-
+Thank you,\
 CapsCode
-
 www.capscode.in
 
 www.myemoji.ml

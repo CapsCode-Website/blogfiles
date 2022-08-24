@@ -26,7 +26,8 @@ If you have any Queries or Suggestions, feel free to reach out to me in the Comm
 
 ## Feedbacks and comments are welcome !
 
-## Thank You, CapsCode
+## Thank You,\
+## CapsCode
 
 Resources:
 

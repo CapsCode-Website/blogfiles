@@ -28,5 +28,5 @@ Below is a demo, do checkout this.
 Hope its a nice and informative read for you.
 VISIT https://www.capscode.in/blog TO LEARN MORE...
 
-Thanks,
+Thanks,\
 CapsCode
