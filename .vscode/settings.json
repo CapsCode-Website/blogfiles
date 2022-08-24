@@ -16,7 +16,13 @@
     "titleBar.activeBackground": "#f9e64f",
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveBackground": "#f9e64f99",
-    "titleBar.inactiveForeground": "#15202b99"
+    "titleBar.inactiveForeground": "#15202b99",
+    "commandCenter.border": "#15202b99",
+    "editor.background": "#ffffff",
+    "editor.foreground": "#000000",
+    "editorLineNumber.activeForeground": "#0fed16",
+    "editor.lineHighlightBorder": "#44ff00",
+    "editor.lineHighlightBackground": "#d8c0c0"
   },
   "peacock.color": "#f9e64f"
 }

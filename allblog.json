@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "numeric-separator-in-javascript",
+    "sidebarName": "Numeric Separator In JavaScript",
+    "title": "Numeric Separator In JavaScript || Underscore Between Digit In JavaScript",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/numeric-separator-in-javascript/index.md",
+    "smallTextHint": "Numeric Separator In JavaScript or How Underscore Between Digit In JavaScript Works",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "useful-vs-code-extensions",
     "sidebarName": "Useful VS Code extensions",
     "title": "List of all useful VS Code extensions",

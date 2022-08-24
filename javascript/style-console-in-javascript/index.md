@@ -1,6 +1,6 @@
 Hello Devs,
 
-Is it possible to style cosole.log() in JavaScript ?
+Is it possible to style console.log() in JavaScript ?
 Its YES.
 
 Have you ever tried this ?

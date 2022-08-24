@@ -5,32 +5,39 @@ https://www.youtube.com/watch?v=YlS-I-hCGzA
 # Introduction:
 
 Have you worked with API's and used different HTTP Methods like GET, POST, PUT, PATCH, DELETE
-if yes, then have you ever thought of why we have these many different Methods
+if yes, then have you ever thought of why  do we have these many different methods and what is the requirements for these.
+
+If not then lets have a look on all of these questions.
 
 1. why we need HTTP methods
-   so that everyone will use the common naming convention for CRUD operation
+   We need different https method so that everyone will use the common naming convention for CRUD operation
    Explanation
-   World Wide Web is distibuted in the 2 sections, one is client and the other is server.
-   let say I have created API and for reading data i will tell CLIENT to use the READ method, and same way some other developer has created the API and tells users to use SEARCH to get the data from the server, then there will be a lot of confusion in the world wide web.
+   World Wide Web is distributed in the 2 sections, one is client and the other is server.
+   let say I have created an API and for reading data i will tell CLIENT to use the READ method, and same way some other developer has created the API and tells users to use SEARCH to get the data from the server, then there will be a lot of confusion in the world wide web.
    Every developer will get confused with all these different naming convention for the same operation in the server.
    So, w3c (World Wide Web Consortium)[https://www.w3.org/Consortium/] has created standard HTTP methods
 
 HTTP protocol is used to send information in a format that both the client and the server can understand.
 
-2. use of http status code
-   whenever we request an API, the API will also sends the acknowledgement and we call as a API Response. These API Response gives the information whether the API is successful or the API failed or there is some server error etc.
-   To idetify these messages, we have different status codes.
-   Using these status code we can identify the failure or success and what status code bbackend is sending to the frontend so that in frontend we can use this and show some messages or take some action.
+2. What is the use of http status code
+   whenever we request an API, the API also sends the acknowledgement and we call it as a API Response.These API Response gives the information whether the API is successful or the API has failed or there is some server error etc.
+   To identify these errors, we have different status codes.
+   Using these status code we can identify the failure or success and what status code backend is sending to the frontend so that in the frontend we can use this code and show some proper error messages or take some action.
    Please do checkout the all list of the API's(here)[https://www.capscode.in/blog/list-of-http-status-code]
 
-3. HTTP Request Header -- this is used to pass additional information to the server. This information is representated as a key value pairs
+3. Wht is the use of HTTP Request Header?
+   HTTP request header is used to pass additional information like content type, cookie values, etc to the server. This information is represented as a key value pair.
    ex. Content-Type header defines the return type of the response data.
-   The Access-Control-Allow-Origin response header indicates whether the response can be shared with requesting code from the given origin
-   etc.
-   please refer to the official MDN doc :https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+   The Access-Control-Allow-Origin response header indicates whether the response can be shared with requesting code from the given origin etc.
+   
+   If you want to learn more abut the HTTP Header then please refer to the official [MDN Doc] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+
+
+Thats all about why do we need HTTP methods, HTTP status code and Request headers
+Now lets see what are the various HTTP methods available and what is the difference between them.
 
 4. GET
-   GET method is used to get the data from a requested resource or Use GET to retrive resource/ information **only**
+   GET method is used to get the data from a requested resource or Use GET to retrieve resource/ information **only**
    Ex. - https://api.capscode.in/userDetails
 
 some important points about GET
