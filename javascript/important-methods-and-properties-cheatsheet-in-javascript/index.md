@@ -286,6 +286,5 @@ The error property can return six different values as its name:
 
 If this is helpful for you, then let us know in the comment.
 
-Thanks,
-
+Thanks,\
 CapsCode

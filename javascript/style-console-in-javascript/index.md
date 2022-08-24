@@ -41,6 +41,5 @@ console.log(`%cI LOVE 💜 %c${name}`, "color: red; font-size: 50px");
 
 If you liked this, please let me know in the comment.
 
-Thanks,
-
+Thanks,\
 CapsCode

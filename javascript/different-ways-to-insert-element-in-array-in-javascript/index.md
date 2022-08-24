@@ -180,6 +180,5 @@ Now you can also play around the objects in JS.
 Hope its a nice and informative read for you.
 VISIT https://www.capscode.in/blog TO LEARN MORE...
 
-Thanks,
-
+Thanks,\
 CapsCode

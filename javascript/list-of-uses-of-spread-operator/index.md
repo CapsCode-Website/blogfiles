@@ -140,6 +140,5 @@ console.log(unique); //[1,3,2]
 Hope this post will be helpful for you.
 if you liked it, please let us know in the comment and show us your love by hitting 👍
 
-Thank you,
-
+Thank you,\
 Team CapsCode

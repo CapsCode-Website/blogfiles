@@ -287,6 +287,6 @@ we are done with What is Array Like Object, now you can implement it anywhere wi
 
 If you like it please give a 👍
 
-Thank you,
+Thank you,\
 CapsCode
 www.capscode.in

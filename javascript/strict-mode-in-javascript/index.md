@@ -136,8 +136,6 @@ that's it my dear devs :)
 
 If you like it please give a 👍
 
-Thank you,
-
-CapsCode
-
+Thank you,\
+CapsCode\
 www.capscode.in

@@ -63,6 +63,5 @@ const Func = (first, second, first) => {
 CONGRATULATIONS, YOU HAVE LEARNT ONE NEW TOPIC TODAY.
 VISIT https://www.capscode.in/blog TO LEARN MORE...
 
-Thanks,
-
+Thanks,\
 CapsCode
