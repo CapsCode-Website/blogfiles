@@ -1,6 +1,6 @@
 Hello Devs,
 
-In this article lets discuss about one of the most amazing feature introduced in `ECMAScript21` (12th edition) i.e Numeric Separator. 
+In this article let's discuss about one of the most amazing features introduced in `ECMAScript21` (12th edition) i.e., Numeric Separator. 
 
 
 ## Table of content
@@ -10,31 +10,31 @@ In this article lets discuss about one of the most amazing feature introduced in
 3. [Conclusion](#conclusion)
 
 
-## 1.Introduction <a name="introduction"></a>
-This feature enable developers to make the **numeric literals** more readable.
+## 1. Introduction <a name="introduction"></a>
+This feature enables developers to make the **numeric literals** more readable.
 What I mean to say is, large **numeric literals** (both integers and floating-point) which are difficult for the human eye to parse quickly, especially when there are long digit repetitions, this feature of ES12 makes it simple to read.
 
-How ?
+How?
 
 `Please read this number`
 ```js
 let num = 1000000000000
 ```
-if some one is reading the value of num verbally, then in the first sight one cannot be able to read it. So **numeric separator** help developers make it readable in the first sight.
+if someone is reading the value of num verbally, then in the first sight one cannot be able to read it. So **numeric separator** help developers make it readable in the first sight.
 
-Lets see how it helps ?
+Let's see how it helps.
 
 `Now, read this number`
 ```js
 let num = 100_000_000_000 
 ```
 
-### **Did you found it little easier to read than the first one ? If YES let me know.**
+### **Did you found it little easier to read than the first one? If YES let me know. **
 
 
 
 
-## 2.Examples <a name="examples"></a>
+## 2. Examples <a name="examples"></a>
 Let see some examples,
 1. equality & strict equality
 
@@ -47,7 +47,7 @@ console.log(num1===num2) //true
 ```
 
 
-2. What is the output in console for number with underscore in it ?
+2. What is the output in console for number with underscore in it?
 
 ```js
 let num = 100_000_000_000
@@ -70,11 +70,11 @@ Awesome! Now you have learnt 1 new feature of JavaScript, I hope you have now a 
 
 Thank you for reading this far. This is a brief introduction of **Numeric Separator In JavaScript**.
 
-If you find this article useful, share this article. Someone could find it useful too. If you find anything technically inaccurate please feel free to create a [issue](https://github.com/CapsCode-Website/blogfiles/issues).
+If you find this article useful, share this article. Someone could find it useful too. If you find anything technically inaccurate, please feel free to create a [issue](https://github.com/CapsCode-Website/blogfiles/issues).
 
-Hope its a nice and informative read for you.
+Hope it's a nice and informative read for you.
 VISIT https://www.capscode.in/blog TO LEARN MORE...
 See you in my next Blog article, Take care!!
 
-Thanks,\
+Thanks, \
 CapsCode
