@@ -68,7 +68,7 @@ let num3 = 0xA_B_C_D_E // hex
 let str1="hellocapscode"
 let str2="hello_capscode"
 
-console.log(str1==str2)//false as numeric separator works only well only with numbers
+console.log(str1==str2)//false as numeric separator works well only with numbers
 
 console.log(str1) //hellocapscode
 console.log(str2) //hello_capscode
