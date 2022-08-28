@@ -29,9 +29,9 @@ Let's see how it helps.
 let num = 100_000_000_000 
 ```
 
-### **Did you found it little easier to read than the first one? If YES let me know. **
+### **Did you found it little easier to read than the first one? If YES let me know**
 
-
+---
 
 
 ## 2. Examples <a name="examples"></a>
@@ -62,7 +62,19 @@ let num2 = 0o2_3_5_7 // octal
 let num3 = 0xA_B_C_D_E // hex
 ```
 
+4. underscore with String Literals.
 
+```js
+let str1="hellocapscode"
+let str2="hello_capscode"
+
+console.log(str1==str2)//false as numeric separator works only well only with numbers
+
+console.log(str1) //hellocapscode
+console.log(str2) //hello_capscode
+```
+
+---
 
 ## 3. Conclusion <a name="conclusion"></a>
 
