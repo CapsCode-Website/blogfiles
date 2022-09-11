@@ -514,9 +514,9 @@ Moreover, if your application uses third-party components like Material-UI or Re
 
 GitLive is an amazing extension to enhance the IDE’s built-in Git functionality with real-time features such as online presence for team members and instant merge conflict detection.
 
-(https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)[https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub]
+[https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
 
-![gitlive](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
+!(gitlive)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true]
 
 
 ## 53. Trunk
@@ -525,36 +525,36 @@ One of the powerful linting extension which provides features like caching, pre 
 
 (https://marketplace.visualstudio.com/items?itemName=Trunk.io)[https://marketplace.visualstudio.com/items?itemName=Trunk.io]
 
-![trunk](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
+!(trunk)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true]
 
 
 ## 54. Minify Doc Writer
 
 Mintlify is a great tool for all of us who think that writing documentation is the most boring task ever. With Mintlify you can just highlight the code and it auto generates docs for you.
 
-(https://marketplace.visualstudio.com/items?itemName=mintlify.document)[https://marketplace.visualstudio.com/items?itemName=mintlify.document]
+[https://marketplace.visualstudio.com/items?itemName=mintlify.document](https://marketplace.visualstudio.com/items?itemName=mintlify.document)
 
-!(minifydocwriter)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true]
+![minifydocwriter](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
 
 
 
 ## 55. Markmap
 
 Markmap extension helps you create visualizations/hierarchial view from your markdown files (the name of the tool is a combination of markdown and mindmap). It parses markdown content and generates the mindmap from it in realtime.
-It also provides a online tool to do so. (https://markmap.js.org/repl)[https://markmap.js.org/repl]
+It also provides a online tool to do so. [Link: https://markmap.js.org/repl](https://markmap.js.org/repl)
 
-(https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)[https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode]
+[https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)
 
-!(markmap)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/markmap.JPG?raw=true]
+![markmap](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/markmap.JPG?raw=true)
 
 
 ## 56. Blockman
 
 While writing code, you often felt to highlight a specific code block so that you will find it visually easy to debug. Blockman has the capability to do it for you, it highlights the block of code and make your life super easy.
 
-(https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman&ssr=false#overview)[https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman&ssr=false#overview]
+[https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman&ssr=false#overview](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman&ssr=false#overview)
 
-!(blockman)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/blockman.JPG?raw=true]
+![blockman](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/blockman.JPG?raw=true)
 
 
 
