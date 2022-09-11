@@ -510,7 +510,7 @@ Moreover, if your application uses third-party components like Material-UI or Re
 ![sapling](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/sapling.JPG?raw=true)
 
 
-##52. GitLive
+## 52. GitLive
 
 GitLive is an amazing extension to enhance the IDE’s built-in Git functionality with real-time features such as online presence for team members and instant merge conflict detection.
 
@@ -519,7 +519,7 @@ GitLive is an amazing extension to enhance the IDE’s built-in Git functionalit
 ![gitlive](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
 
 
-##53. Trunk
+## 53. Trunk
 
 One of the powerful linting extension which provides features like caching, pre existing issue detection, a daemon, and a language server.
 
@@ -528,7 +528,7 @@ One of the powerful linting extension which provides features like caching, pre 
 ![trunk](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
 
 
-##54. Minify Doc Writer
+## 54. Minify Doc Writer
 
 Mintlify is a great tool for all of us who think that writing documentation is the most boring task ever. With Mintlify you can just highlight the code and it auto generates docs for you.
 
@@ -538,7 +538,7 @@ Mintlify is a great tool for all of us who think that writing documentation is t
 
 
 
-##55. Markmap
+## 55. Markmap
 
 Markmap extension helps you create visualizations/hierarchial view from your markdown files (the name of the tool is a combination of markdown and mindmap). It parses markdown content and generates the mindmap from it in realtime.
 It also provides a online tool to do so. (https://markmap.js.org/repl)[https://markmap.js.org/repl]
@@ -548,7 +548,7 @@ It also provides a online tool to do so. (https://markmap.js.org/repl)[https://m
 !(markmap)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/markmap.JPG?raw=true]
 
 
-##56. Blockman
+## 56. Blockman
 
 While writing code, you often felt to highlight a specific code block so that you will find it visually easy to debug. Blockman has the capability to do it for you, it highlights the block of code and make your life super easy.
 
