@@ -523,7 +523,7 @@ GitLive is an amazing extension to enhance the IDE’s built-in Git functionalit
 
 One of the powerful linting extension which provides features like caching, pre existing issue detection, a daemon, and a language server.
 
-(https://marketplace.visualstudio.com/items?itemName=Trunk.io)[https://marketplace.visualstudio.com/items?itemName=Trunk.io]
+[https://marketplace.visualstudio.com/items?itemName=Trunk.io](https://marketplace.visualstudio.com/items?itemName=Trunk.io)
 
 ![trunk](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/trunk.JPG?raw=true)
 
