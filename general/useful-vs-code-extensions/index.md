@@ -516,7 +516,7 @@ GitLive is an amazing extension to enhance the IDE’s built-in Git functionalit
 
 [https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
 
-!(gitlive)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true]
+![gitlive](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
 
 
 ## 53. Trunk
@@ -525,7 +525,7 @@ One of the powerful linting extension which provides features like caching, pre 
 
 (https://marketplace.visualstudio.com/items?itemName=Trunk.io)[https://marketplace.visualstudio.com/items?itemName=Trunk.io]
 
-!(trunk)[https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true]
+![trunk](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/trunk.JPG?raw=true)
 
 
 ## 54. Minify Doc Writer
@@ -534,7 +534,7 @@ Mintlify is a great tool for all of us who think that writing documentation is t
 
 [https://marketplace.visualstudio.com/items?itemName=mintlify.document](https://marketplace.visualstudio.com/items?itemName=mintlify.document)
 
-![minifydocwriter](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/gitlive.JPG?raw=true)
+![minifydocwriter](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/minifydocwriter.JPG?raw=true)
 
 
 
