@@ -14,8 +14,8 @@ In this blog post I am going to tell you some of the interesting and useful VS C
 # Introduction <a name="introduction"></a>
 ---
 
-Their are lots of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definitely make your life easy and increase your productivity.
-So without wasting time, lets see the extensions below.
+There are lot's of amazing library in VS Code Marketplace and some of them are very useful. Here I am listing some of the very useful extensions which definitely make your life easy and increase your productivity.
+So, without wasting time, lets see the extensions below.
 Please feel free to add some more extension by editing this post here [link](https://github.com/CapsCode-Website/blogfiles/issues)
 
 # VS Code Extension List <a name="vscodeextensionlist"></a>
@@ -25,7 +25,7 @@ Please feel free to add some more extension by editing this post here [link](htt
 This is the most famous and used extension in vs code.
 This extension is used to format the code which means when we write codes we sometimes didn't consider line break or brackets after a space and some of the stuffs like this. This extension automatically beautify your code and make it clean and more readable.
 
-It support lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
+It supports lots of programming languages like JavaScript, TypeScript, Flow, JSX, JSON, CSS, SCSS, Less, HTML, Vue, Angular,GraphQL, Markdown etc.
 
 [https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
