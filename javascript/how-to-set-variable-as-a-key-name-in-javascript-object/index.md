@@ -37,7 +37,7 @@ obj[key] = someValue; // this is same as obj.someKey=someValue
 **but the best way and the recommended way is using spread operator `(...)`**
 
 ```js
-obj = { ...obj, [key]: somaValue };
+obj = { ...obj, [key]: someValue };
 ```
 
 NOTE: if you having any doubt regarding why we are using [] for setting the keys, please have a look at [DOT & BRACKET Notation in Javascript](https://www.capscode.in/blog/dot-and-bracket-notation-in-javascript)
