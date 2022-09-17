@@ -559,9 +559,46 @@ While writing code, you often felt to highlight a specific code block so that yo
 
 
 
+## 57. JavaScript Booster
+
+This extension boost your productivity with advanced JavaScript/TypeScript refactoring and commands
 
 
 
+JavaScript Booster comes with whole lot of below features, \
+>**Conditions:**
+Flip if-else, Remove redundant else, Replace if-else with, Simplify if-else, Flip, Simplify, Merge nested if statements (new)
+
+
+>**Declarations**
+Convert var/const to let, Convert var to const, Split into multiple declarations, Split into declaration and initialization, Merge declaration and initialization
+
+
+>**Strings**
+Replace string with template string, Replace template string with regular string, Split string under cursor, Trim whitespaces inside string (new)
+
+
+>**Functions**
+Convert shorthand arrow function to statement, Convert to shorthand arrow function, Add parens to single arrow function parameter, Convert function to arrow function, Convert arrow function to regular function (new), Convert function declaration to arrow function (new) 
+
+>**Async**
+[on selection] Run selected await statements in parallel with  `Promise.all`
+
+
+>**TypeScript**
+Convert enum to string-enum (new), Convert string-enum to type union (new), Convert type union of strings to string-enum (new)
+
+
+>**JSX / TSX**
+Wrap value with {} (JSX attributes), Remove {} from JSX attribute, Collapse/Expand empty tag
+
+
+>**React**
+Wrap function into useCallback() hook (new), React: Wrap component function with React.forwardRef() (new), React: Wrap component function with React.memo() (new), React: Convert function to React.FunctionComponent declaration (new)
+
+[https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
+
+![javascript_booster](https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/useful-vs-code-extensions/images/javascript_booster.JPG?raw=true)
 
 
 
