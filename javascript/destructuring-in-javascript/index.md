@@ -7,10 +7,11 @@ In this article we will learn Destructuring in JavaScript
 1. [Array Destructuring in JavaScript](#one)
 2. [Additional use of Array Destructuring](#two)
 3. [Assigning default values using destructuring assignment](#three)
-4. [Destructuing of nested array](#four)
+4. [Destructuring of nested array](#four)
 5. [Object Destructuring in JavaScript](#five)
 6. [Nested object destructuring](#six)
-7. [Combined Array and Object Destructuring](#seven)
+7. [How to skip values in Array destructuring](#seven)
+8. [Combined Array and Object Destructuring](#eight)
 
 Without wasting any time lets get into it,
 
@@ -106,7 +107,7 @@ alert(surname); // Anonymous (default used)
 
 ```
 
-## 4. Destructuing of nested array <a name="four"></a>
+## 4. Destructuring of nested array <a name="four"></a>
 
 ```js
 const person = ["John", ["capscode", "google", "yahoo"], "Doe"];
@@ -140,7 +141,7 @@ console.log(others.lname);
 console.log(others.company);
 ```
 
-what if we will use Destructuing assignment without declaration?
+what if we will use Destructuring assignment without declaration?
 
 ```js
 let fname, lname, company;
@@ -205,8 +206,21 @@ const {
 console.log(maths); //74
 console.log(english); //undefined
 ```
+## 7. How to skip values in Array destructuring <a name="seven"></a>
+```js
+//IN ARRAY
+let arr=[4,1,6]
+let [,...op] = arr
+console.log(op) //[1, 6]
 
-## 7.Combined Array and Object Destructuring <a name="seven"></a>
+let [,,op] = arr
+console.log(op) //6
+
+let [,op] = arr
+console.log(1) //6
+
+```
+## 8.Combined Array and Object Destructuring <a name="eight"></a>
 
 **Example,**
 
