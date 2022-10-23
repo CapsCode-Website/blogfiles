@@ -1,5 +1,14 @@
 [
   {
+    "routeName": "how-array-find-works-in-javascript",
+    "sidebarName": "Array find() method in JavaScript",
+    "title": "Array find() method in JavaScript",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/how-array-find-works-in-javascript/index.md",
+    "smallTextHint": "How Array find() method works internally in JavaScript",
+    "like": 100,
+    "heart": 300
+  },
+  {
     "routeName": "large-delay-value-in-setTimeout",
     "sidebarName": "How Large Delay Value In setTimeout Acts In JavaScript",
     "title": "How Large Delay Value In setTimeout Acts In JavaScript",
