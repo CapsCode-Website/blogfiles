@@ -20,7 +20,7 @@ In this article, we will learn all the important aspects, uses of CSS variables.
 # 1. What are CSS variables <a name="what-are-css-variables"></a>
 CSS variables are just like the normal variables in any programming language. We can define the variable, assign & reassign the value to it and use it within their scope.
 
-
+---
 # 2. How to declare CSS variable <a name="how-to-declare-css-variable"></a>
 To declare CSS Variable we use `--`
 
@@ -29,7 +29,7 @@ syntax:
 ```css
 --varName: value
 ```
-
+---
 # 3. How to consume CSS variable <a name="how-to-consume-css-variable"></a>
 To consume variables in CSS, we use  `var(name, value)`
 where,
@@ -40,7 +40,7 @@ syntax:
 ```css
 css-property : var(--varName, defaultValue)
 ```
-
+---
 # 4. Scope of CSS variable <a name="scope-of-css-variable"></a>
 Here comes the most important and interesting part of CSS variables i.e the Scope of CSS variables.
 To begin with this we will first see what are scope in CSS and how we can define it.
@@ -238,7 +238,7 @@ h2 {
   background-color: var(--containerlightcolor3);
 }
 ```
-
+---
 ## 4. declaring variable inside id
 
 **Syntax**
@@ -253,7 +253,7 @@ h2 {
 works same as class
 
 
-
+---
 # 5. How to reassign value of CSS variable <a name="how-to-reassign-value-of-css-variable"></a>
 **local variable will override global**
 
@@ -268,7 +268,7 @@ works same as class
     }
 
 ```
-
+---
 # 6. Hoisting in CSS Variable <a name="hoisting-in-css-variable"></a>
 
 Just like JavaScript function CSS variables are hoisted and can be use before their declaration
@@ -288,7 +288,7 @@ This feature is very important to keep in mind while declaring variables in CSS.
 
 Hoisting of CSS variable works similar to functions of JavaScript
 
-
+---
 # 7. CSS variable in media-query <a name="css-variable-in-media-query"></a>
 
 ```html
@@ -352,7 +352,7 @@ if we redefine the --fontsize variable in container2 then everything will work p
 ```
 as container2 is the child of container and div is the child if container2 as well.
 
-
+---
 # 8. Change CSS variable value using JavaScript <a name="change-css-variable-value-using-javascript"></a>
 
 ```js
@@ -362,7 +362,7 @@ r.style.setProperty('--buttoncolor', 'lightblue');
 ```
 
 
-
+---
 # 9. CSS variable inheritance <a name="css-variable-inheritance"></a>
 
 Just like CSS properties, CSS variable also are cascading in nature (i.e they inherit).
@@ -401,7 +401,7 @@ The value of an element is inherited from its parent if no custom property is de
 
 the background color of container-item-1 and container-item-2 will be different because the element, class or id will inherit from its nearest parent and that the reason for different background colors for container-item-1 and container-item-2.
 
-
+---
 # 10. Additional <a name="additional"></a>
 
 Just for a side note, we should be aware of the CSS Methods and Function.
