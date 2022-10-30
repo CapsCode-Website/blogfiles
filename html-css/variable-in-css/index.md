@@ -7,21 +7,21 @@ In this article, we will learn all the important aspects, uses of CSS variables.
 # Table of content
 1. [What are CSS variables](#what-are-css-variables)
 2. [How to declare CSS variable](#how-to-declare-css-variable)
-3. [How to consume CSS Variable](#how-to-consume-css-variable)
+3. [How to consume CSS variable](#how-to-consume-css-variable)
 4. [Scope of CSS variable](#scope-of-css-variable)
 5. [How to reassign value to CSS variable](#how-to-reassign-value-of-css-variable)
 6. [Hoisting in CSS variable](#hoisting-in-css-variable)
 7. [CSS variable in media-query](#css-variable-in-media-query)
 8. [Change CSS variable value using JavaScript](#change-css-variable-value-using-javascript)
 9. [CSS variable inheritance](#css-variable-inheritance)
-10. [Additional -- CSS Functions & Methods](#additional)
+10. [Additional -- CSS functions & methods](#additional)
 
 
 # 1. What are CSS variables <a name="what-are-css-variables"></a>
 CSS variables are just like the normal variables in any programming language. We can define the variable, assign & reassign the value to it and use it within their scope.
 
 
-# 2. How to declare CSS Variable <a name="how-to-declare-css-variable"></a>
+# 2. How to declare CSS variable <a name="how-to-declare-css-variable"></a>
 To declare CSS Variable we use `--`
 
 syntax:
@@ -30,7 +30,7 @@ syntax:
 --varName: value
 ```
 
-# 3. How to consume CSS Variable <a name="how-to-consume-css-variable"></a>
+# 3. How to consume CSS variable <a name="how-to-consume-css-variable"></a>
 To consume variables in CSS, we use  `var(name, value)`
 where,
 name: is required and it will be the name of the variable (must start with --)
@@ -69,7 +69,7 @@ element:{
 
 Now lets see some examples,
 
-1. defining global variable
+## 1. defining global variable
 
 **Syntax**
 ```css
@@ -121,7 +121,7 @@ button{
 ```
 
 
-2. Declaring variable inside element
+## 2. Declaring variable inside element
  
 **Syntax**
 ```css
@@ -185,7 +185,7 @@ body {
 ```
 body will unable to get the bgColor variable value (i.e limegreen), because body is not the child of div element. But the elements which are child of div can use the bgColor variable.
 
-3. declaring variable inside class name
+## 3. declaring variable inside class name
 
 **Syntax**
 
@@ -239,7 +239,7 @@ h2 {
 }
 ```
 
-4. declaring variable inside id
+## 4. declaring variable inside id
 
 **Syntax**
 ```css
