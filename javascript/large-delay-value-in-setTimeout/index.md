@@ -1,6 +1,6 @@
 Hello Dev,
 
-In this article, I wll explain you 1 very important limitation of setTimeout in JavaScript.
+In this article, I will explain you 1 very important limitation of setTimeout in JavaScript.
 
 Browsers including Internet Explorer, Chrome, Safari, and Firefox store the delay as a 32-bit signed integer internally. This causes an integer overflow when using delays larger than 2,147,483,647 ms (about 24.8 days), resulting in the timeout being executed immediately.
 
@@ -23,10 +23,10 @@ But the callback function will get executed immediately because the maximum dela
 
 Thank you for reading this so far. This is a brief introduction on **How Large Delay Value In `setTimeout` Acts in JavaScript**.
 
-Hope its a nice and informative read for you.
+Hope it's a nice and informative read for you.
 If you find this article useful, like and share this article. Someone could find it useful too.
 
-If you find anything technically inaccurate please feel free to reach out to us.
+If you find anything technically inaccurate, please feel free to reach out to us.
 
 VISIT https://www.capscode.in/blog TO LEARN MORE.
 
