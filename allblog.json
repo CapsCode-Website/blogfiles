@@ -20,8 +20,8 @@
   },
   {
     "routeName": "large-delay-value-in-setTimeout",
-    "sidebarName": "How Large Delay Value In setTimeout Acts In JavaScript",
-    "title": "How Large Delay Value In setTimeout Acts In JavaScript",
+    "sidebarName": "Large Delay Value In setTimeout In JavaScript",
+    "title": "Large Delay Value In setTimeout In JavaScript",
     "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/javascript/large-delay-value-in-setTimeout/index.md",
     "smallTextHint": "How Large Delay Value In setTimeout Acts In JavaScript",
     "like": 100,
