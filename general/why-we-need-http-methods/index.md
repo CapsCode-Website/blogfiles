@@ -83,7 +83,7 @@ In case the resource is NOT found on the server then API must return HTTP respon
 **Lets see some of the Question that might arise during further read !!**
 
 <details>
-<summary>Q. Can I send `HTTP Headers` using the GET method?</summary>
+<summary>Q. Can I send `HTTP headers` using the GET method?</summary>
 
 Yes, you can send any `HTTP headers` with your GET request.
 </details>
@@ -95,12 +95,12 @@ No, HTTP GET requests cannot have a request body/ payload. But you can still sen
 ```html
 URL parameters
 
-https://localhost:3000/user/12
+https://www.api.capscode.in/user/12
 
 or 
 
 using query string
-https://localhost:3000/user?userId=12
+https://www.api.capscode.in/user?userId=12
 ```
 
 In this case, you are limited to the `maximum` size of the URL, which is about `2000 characters`(depend on browser and browser version). 
@@ -170,7 +170,7 @@ The POST method itself is semantically meant to post something to a resource gro
 | HEAD | yes | yes |
 | TRACE | yes | yes |
 
-----
+
 
 <details>
 <summary> Q. What is SAFE & UNSAFE HTTP methods</summary>
@@ -181,7 +181,7 @@ An HTTP method is safe if it doesn't alter the state of the server. In other wor
 
 </details>
 
-
+----
 
 ## 5. POST <a name="post-method"></a>
 POST is used to send data to the server to create/update a resource.
@@ -421,7 +421,7 @@ This method is often used for testing hypertext links for validity, accessibilit
 ---
 
 
-## 10. OPTIONS <a name="options"></a>
+## 10. OPTIONS <a name="options-method"></a>
 OPTIONS requests permitted communication options for a given URL or server. A client can specify a URL with OPTIONS method, or an asterisk (\*) to refer to the entire server.
 
 In CORS, a preflight request is sent with the OPTIONS method so that the server can respond if it is acceptable to send the request.
@@ -437,7 +437,7 @@ In CORS, a preflight request is sent with the OPTIONS method so that the server 
 
 ---
 
-## 11. TRACE <a name="trace"></a>
+## 11. TRACE <a name="trace-method"></a>
 The TRACE method is used to perform a message loop-back test that tests the path for the target resource (useful for debugging purposes).
 
 Doesn't work in most of the browsers.
@@ -454,7 +454,7 @@ Doesn't work in most of the browsers.
 ---
 
 
-## 12. CONNECT <a name="connect"></a>
+## 12. CONNECT <a name="connect-method"></a>
 The CONNECT method is used to start a two-way communications (a tunnel) with the requested resource/ server. It can be used to open a tunnel between client and server.
 
 **Some points to note about CONNECT request**
