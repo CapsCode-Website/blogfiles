@@ -92,7 +92,6 @@ Yes, you can send any `HTTP headers` with your GET request.
 <summary>Q. Can I send data(request payload) using the HTTP GET method?</summary>
 No, HTTP GET requests cannot have a request body/ payload. But you can still send data to the server using
 
-```html
 URL parameters
 
 https://www.api.capscode.in/user/12
@@ -101,7 +100,7 @@ or
 
 using query string
 https://www.api.capscode.in/user?userId=12
-```
+
 
 In this case, you are limited to the `maximum` size of the URL, which is about `2000 characters`(depend on browser and browser version). 
 
