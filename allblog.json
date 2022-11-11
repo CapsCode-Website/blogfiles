@@ -1,5 +1,13 @@
 [
-
+  {
+    "routeName": "why-we-need-http-methods",
+    "sidebarName": "Why we need http methods",
+    "title": "Why we need http methods",
+    "link": "https://raw.githubusercontent.com/CapsCode-Website/blogfiles/master/general/why-we-need-http-methods/index.md",
+    "smallTextHint": "Why we need http method, when to use which http method and what is the difference between them",
+    "like": 100,
+    "heart": 300
+  },
   {
     "routeName": "variable-in-css",
     "sidebarName": "Variable in CSS",
