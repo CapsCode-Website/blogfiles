@@ -7,18 +7,18 @@ If not then lets have a look on all of these questions right below and **I CAN G
 
 ## Table of content
 ---
-1. Why we need HTTP methods
-2. What is the use of http status code
-3. What is the use of HTTP Request Header?
-4. GET
-5. POST
-6. PUT
-7. PATCH
-8. DELETE
-9. HEAD
-10. OPTIONS
-11. TRACE
-12. CONNECT
+1. [Why we need HTTP methods](#why-we-need-http-methods)
+2. [What is the use of HTTP status code](#what-is-the-use-of-http-status-code)
+3. [What is the use of HTTP request header](#what-is-the-use-of-http-request-header)
+4. [GET](#get-method)
+5. [POST](#post-method)
+6. [PUT](#put-method)
+7. [PATCH](#patch-method)
+8. [DELETE](#delete-method)
+9. [HEAD](#head-method)
+10. [OPTIONS](#options-method)
+11. [TRACE](#trace-method)
+12. [CONNECT](#connect-method)
 
 Before directly jumping onto the HTTP methods, lets first see some of the important points/ topics which might help you during your further read.
 If you are already aware of these, then you can directly jump onto HTTP method topic. [HTTP METHODS](#get-method)
@@ -240,7 +240,7 @@ Yes it is expected to have body/content in body, but it is not required(Mandator
 
 To retrieve data we have to use the GET call, but as per the question we have to send the data to server, if the data is less than 4000 char and non sensitive then we can send these data in the URL and use the GET call but if the data is large or data is sensitive data then we have to send the data in the payload of POST call because if we send the data in the URL then it will be visible from the URL and may lead to exposure of sensitive data.
 So POST call can also be used to get the data.
-but isn't it against the http protocol.
+but isn't it against the HTTP protocol.
 
 lets answer this in the next question,
 </details>
@@ -249,8 +249,8 @@ lets answer this in the next question,
 <details>
 <summary>Q. Can we INSERT/UPDATE/DELETE data in a GET method ?</summary>
 
-GET http://www.api.capscode.in/users/id \
-DELETE http://www.api.capscode.in/users/id
+GET https://www.api.capscode.in/users/id \
+DELETE https://www.api.capscode.in/users/id
 
 From the above URLs, you can easily tell which one would return a result and which one would remove the record (depending on the application being used).
 
@@ -314,11 +314,11 @@ NOTE: It's ok to use POST for updates when you want to replace or changing the e
 Q. Difference between POST and PUT
 </summary>
 
-HTTP POST http://www.api.capscode.in/users \
-HTTP POST http://www.api.capscode.in/users/123/accounts \
+HTTP POST https://www.api.capscode.in/users \
+HTTP POST https://www.api.capscode.in/users/123/accounts \
 \
-HTTP PUT http://www.api.capscode.in/users/123 \
-HTTP PUT http://www.api.capscode.in/users/123/accounts/456 \
+HTTP PUT https://www.api.capscode.in/users/123 \
+HTTP PUT https://www.api.capscode.in/users/123/accounts/456 \
 
 The difference between the POST and PUT APIs can be observed in request URIs. POST requests are made on resource collections, whereas PUT requests are made on a single resource.
 
