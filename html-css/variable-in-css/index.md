@@ -337,9 +337,8 @@ if we define --fontsize: 50px in the :root inside a media query, then it will no
 }
 ```
 
-because for the container class we have defined the --fontsize as a local variable, it will use the local variable --fontsize and we know that the 
-**local**** variable will** override global**
-if we reassign the --fontsize variable with a different value then it should be within container class only as we have seen above.
+because for the container class we have defined the --fontsize as a local variable, it will use the local variable --fontsize and we know that the **local variable will override global**.
+if we reassign the --fontsize variable with a different value then it should be within the container class only as we have seen above.
 
 If we redefine the --fontsize variable in container2 then everything will work perfectly fine.
 ```css
