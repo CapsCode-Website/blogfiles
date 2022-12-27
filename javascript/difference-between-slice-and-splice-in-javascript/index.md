@@ -85,6 +85,16 @@ let a = [1, 2, 3, 4, 5];
 a.splice(2, 2, "a", "b", "c", "d"); //returns [3, 4]
 console.log(a); //[1, 2, "a", "b", "c", "d", 5]
 //slice has removed 2 elements starting from index '2' and added the item1, item2, ...itemN at start positon
+
+//This also very useful when you want to delete a specific element from an array
+let arr =[1,3,6,4]
+//we want to remove 3 from array
+const index = arr.indexOf(3) //returns 1
+//NOTE: indexOf returns -1 if element is not present in an array and it returns the index of 1st occurrence of that element and its case-sensitive (useful when we are searching a word in string)
+if(index > -1){
+  arr.splice(index, 1)
+}
+console.log(arr) // [1,6,4]
 ```
 
 ### Now lets discuss the slice method.

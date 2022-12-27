@@ -2,6 +2,11 @@ learn from here: https://www.geeksforgeeks.org/http-headers/
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 https://flaviocopes.com/http-request-headers/#from
 
+
+must-
+https://www.youtube.com/watch?v=DxeSGUM16_4
+
+
 The HTTP Request Headers List
 Every HTTP request has a set of mandatory and optional headers. This post aims to list all those headers, and describe them.
 
