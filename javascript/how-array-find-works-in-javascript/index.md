@@ -13,7 +13,7 @@ In this article, I will introduce you to find() method of JavaScript Array.
 4. [Conclusion](#conclusion)
     
 
-## Introduction
+## Introduction <a name="introduction"></a>
 ---
 The JavaScript array find() method returns the value from an array that satisfies the condition written in the callback function.
 
@@ -67,7 +67,7 @@ What have we observed from the above example? This callback function gets execut
 
 Once `find()` returned something, then the execution of the callback function stopped at that point (so from the above example 1, it won't execute the loop after index 1).
 
-## When find() is useful
+## When find() is useful <a name="when-find-is-useful"></a>
 ---
 
 let's say we have a big JSON data, and you have a search functionality & you want to filter out the first appearance of that search.
@@ -98,7 +98,7 @@ let result = data.filter(d=>d.country_name=="India")
 console.log(result) // [{country_name: 'India', code: 'IN'},{country_name:"India",code:"IN"}]
 ```
 
-## Some more points to be noted
+## Some more points to be noted <a name="points-to-be-noted"></a>
 ---
 
 find() method does not mutate (or change) the array on which it is called upon. But the function provided to callbackFunction can. If so, the elements processed by find are set before the first invocation of callbackFn. Therefore:
@@ -174,7 +174,7 @@ The syntax of both of these are same as `find()` but, some and every return bool
 2. every() iterates over all the array elements and checks for the condition, if **all the elements satisfy** the condition of the callback function then `every()` will return true else it will return false.
     
 
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 ---
 
 Thank you for reading this far. This is a brief introduction to How the array find(**) method works in JavaScript**. `find()` method is useful when we want to return the first appearance of an element in an array or JSON data based on the condition written in the callback function.
