@@ -32,7 +32,7 @@ World Wide Web(WWW) is distributed in 2 sections, one is client and the other is
 Let's say I have created an API and for reading data I will tell CLIENT to use the READ method, and same the way some other developer has created the API used SEARCH to get the data from the server, then there will be a lot of confusion in the World Wide Web, although READ & SEARCH both are doing the same operation (fetching the data from the server).
 
 Every developer will get confused with all these different naming conventions for the same operation in the server.
-So, w3c (World Wide Web Consortium)[https://www.w3.org/Consortium/] has created standard HTTP methods, so that everyone can use the common naming convention for CRUD operations.
+So, w3c [World Wide Web Consortium](https://www.w3.org/Consortium/) has created standard HTTP methods, so that everyone can use the common naming convention for CRUD operations.
 
 The HTTP protocol is used to send information in a format that both the client and the server can understand.
 
@@ -43,7 +43,7 @@ The HTTP protocol is used to send information in a format that both the client a
 Whenever we request an API, the API also sends the acknowledgment back to the client and we call it an API Response. This API Response gives information regarding the API status whether it is successful or the API has failed or there is some server error etc.
 
 **To identify these errors, we have different status codes.**
-Please check out all lists of the APIs(here)[https://www.capscode.in/blog/list-of-http-status-code]
+Please check out all lists of the APIs [here](https://www.capscode.in/blog/list-of-http-status-code)
 
 Using these status codes we can identify the failure or success and what status code backend server is sending to the frontend so that in the frontend we can use this code to show some proper error messages on different failures and show data in the UI on success.
 
@@ -53,7 +53,9 @@ Using these status codes we can identify the failure or success and what status 
  
 The HTTP request header is used to pass additional information like content type, cookies value, Auth, etc to the server. This information is represented as a key-value pair in the request header while calling APIs.
 
-**Ex.** `Content-Type` header defines the return type of the response data.
+**Ex.** 
+
+`Content-Type` header defines the return type of the response data.
 The `Access-Control-Allow-Origin` response header indicates whether the response can be shared with requesting code from the given origin etc.
    
 If you want to learn more about the HTTP Header then please refer to the official [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
@@ -64,10 +66,14 @@ If you want to learn more about the HTTP Header then please refer to the officia
 That's all about why we need HTTP methods, HTTP status codes and request headers.
 Now let's see what are the various HTTP methods available and what is the difference between them.
 
+---
+
 ## 4. GET <a name="get-method"></a>
 GET method is used to get the data from a requested resource/ server or in another way, use GET to retrieve resource/ information **only**
 
-Ex. - let's say we have an API URL like this, https://api.capscode.in/user
+**Ex.**
+
+let's say we have an API URL like this, https://api.capscode.in/user
 and when we do the GET call to this URL, it will return the list of users from the database.
 
 
@@ -83,7 +89,7 @@ In case the resource is NOT found on the server then API must return HTTP respon
 **Let's see some of the Questions that might arise during further reading !!**
 
 <details>
-<summary>Q. Can I send `HTTP headers` using the GET method?</summary>
+<summary>Q. Can I send HTTP headers using the GET method?</summary>
 
 Yes, you can send any `HTTP headers` with your GET request.
 </details>
@@ -190,6 +196,7 @@ You can say that whenever you want to create/update resources in the server, you
 When talking strictly about REST, POST methods are used to create a new resource in the collection of resources. When a new resource is POSTED to the collection of resources by calling an API of the parent source (where all resources are defined), this new resource will be created by getting a new ID (a new resource URI).
 
 **Ex-**
+
 ```js
 // API URL: https://api.capscode.in/user
 request payload:
@@ -282,6 +289,7 @@ If you want to update a specific resource (which comes with a specific URI), you
 If an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes SHOULD be sent to indicate the status/action of the request.
 
 **Ex:**
+
 ```js
 API URL : https://www.api.capscode.in/user/5
 Request payload: {
@@ -317,7 +325,7 @@ HTTP POST https://www.api.capscode.in/users \
 HTTP POST https://www.api.capscode.in/users/123/accounts \
 \
 HTTP PUT https://www.api.capscode.in/users/123 \
-HTTP PUT https://www.api.capscode.in/users/123/accounts/456 \
+HTTP PUT https://www.api.capscode.in/users/123/accounts/456
 
 The difference between the POST and PUT APIs can be observed in request URIs. POST requests are made on resource collections, whereas PUT requests are made on a single resource.
 
@@ -377,6 +385,7 @@ The status should be 204 (No Content) if the action has been performed but the r
 Repeatedly calling DELETE API on that resource will not change the outcome – however, calling DELETE on a resource a second time will return a 404 (NOT FOUND) since it was already removed.
 
 **Ex:**
+
 ```js
 API URL: https://www.api.capscode.in/users/5
 
@@ -403,6 +412,7 @@ This is useful for retrieving meta-information written in **response headers**, 
 HEAD requests are useful for checking what a GET request is going to return before actually making a GET request.
 
 **Ex:**
+
 like before downloading a large file or response body and before actually downloading it backend can send the message that the file size is big and based on that you can take action.
 
 This method is often used for testing hypertext links for validity, accessibility, downloading a large file and recent modification.
@@ -454,7 +464,7 @@ Doesn't work in most of the browsers.
 
 
 ## 12. CONNECT <a name="connect-method"></a>
-The CONNECT method is used to start a two-way communications (a tunnel) with the requested resource/ server. It can be used to open a tunnel between the client and the server.
+The CONNECT method is used to start two-way communications (a tunnel) with the requested resource/ server. It can be used to open a tunnel between the client and the server.
 
 **Some points to note about CONNECT request**
 1. CONNECT request has no body.
@@ -478,7 +488,7 @@ Thank you for reading this so far. This is a brief introduction to **HTTP Method
 
 Hope it's a nice and informative read for you. If you find this article useful, like and share this article. Someone could find it useful too.
 
-If you find anything technically inaccurate please feel free to reach out to us.
+If you find anything technically inaccurate, please feel free to reach out to us.
 
 VISIT https://www.capscode.in/blog TO LEARN MORE.
 
